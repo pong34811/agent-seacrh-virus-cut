@@ -5,7 +5,7 @@ import config, gpu_env
 from features import wav_path, SR
 from windows import merge_windows
 
-PAD_S = 90
+PAD_S = 60
 BOOST_AF = "highpass=f=80,loudnorm=I=-16:TP=-1.5:LRA=11"
 
 def boost(x: np.ndarray, sr: int = SR) -> np.ndarray:
@@ -19,7 +19,7 @@ def spans(wins, duration_s: float, pad: float = PAD_S):
     return [(s, e) for s, e, _ in merge_windows(padded, gap_s=0)]
 
 def segments_for_span(model, audio: np.ndarray, offset: float):
-    segs, _ = model.transcribe(audio, language=config.LANGUAGE, vad_filter=True, beam_size=1)
+    segs, _ = model.transcribe(audio, language=config.LANGUAGE, beam_size=1, batch_size=16)
     return [{"start": round(s.start + offset, 2), "end": round(s.end + offset, 2), "text": s.text.strip()} for s in segs]
 
 def read_span(wav: pathlib.Path, s: float, e: float) -> np.ndarray:
@@ -33,8 +33,8 @@ def _get_model():
     global _model
     if _model is None:
         gpu_env.setup()
-        from faster_whisper import WhisperModel
-        _model = WhisperModel("large-v3", device="cuda", compute_type="float16")
+        from faster_whisper import WhisperModel, BatchedInferencePipeline
+        _model = BatchedInferencePipeline(model=WhisperModel("large-v3", device="cuda", compute_type="float16"))
     return _model
 
 def run(source_id: str) -> pathlib.Path:

@@ -40,14 +40,14 @@ def score_windows(rms, peak, win: int = 60, hop: int = 30):
     sc = np.where(sp < MIN_SPEECH_RATIO, sc * DEMOTE, sc)
     return [(float(s), float(s + win), float(v)) for s, v in zip(starts, sc)]
 
-def top_n(duration_s: float, per_hour: int = 14) -> int:
+def top_n(duration_s: float, per_hour: int = 20) -> int:
     return max(1, round(duration_s / 3600 * per_hour))
 
 def pick_top(wins, n: int, gap_s: float = 15):
     best = sorted(wins, key=lambda w: w[2], reverse=True)[:n]
     return merge_windows(best, gap_s=gap_s)
 
-def top(source_id: str, per_hour: int = 14):
+def top(source_id: str, per_hour: int = 20):
     d = np.load(config.WORK_DIR / "scores" / f"{source_id}.features.npz")
     wins = score_windows(d["rms"], d["peak"])
     res = pick_top(wins, top_n(len(d["rms"]), per_hour))
