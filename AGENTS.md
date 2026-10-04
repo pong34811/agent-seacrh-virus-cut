@@ -45,7 +45,7 @@ Setup and checks (run through the `terminal` tool):
 - Whisper Thai text is unverified: treat quotes and punchlines from it as unconfirmed, have reviewers flag low-confidence clips, and surface those ids in the report. Filenames do not reliably tell the game or topic.
 - Verify subagent output with the schema pytest, not their summaries.
 - Playback frame rate cannot be set or checked through the API: ask the user to confirm it in Project Settings.
-- Work on a feature branch, not `main`. Do not auto-commit `llm_wiki/` changes if its rules forbid it. Check a claim (hash, file read) before writing it into the append-only wiki log.
+- Use `main` only: commit and push directly to `main`, no feature branches (user instruction, 2026-10-04). Do not auto-commit `llm_wiki/` changes if its rules forbid it. Check a claim (hash, file read) before writing it into the append-only wiki log.
 
 ## Current state (dated 2026-10-04; verify before relying on it)
 
