@@ -2,7 +2,10 @@
 import json, os, pathlib, shutil
 
 CODE_DIR = pathlib.Path(__file__).parent.resolve()
-JOB_FILE = pathlib.Path(os.environ.get("HIGHLIGHT_JOB", CODE_DIR / "hoshi" / "2026-10-03" / "job.json"))
+if not os.environ.get("HIGHLIGHT_JOB"):
+    raise RuntimeError("HIGHLIGHT_JOB is not set. Point it at the job.json of the job to run, "
+                       "e.g. work/<channel>/<job>/job.json (no default, so results never land in another channel's folder).")
+JOB_FILE = pathlib.Path(os.environ["HIGHLIGHT_JOB"])
 _job = json.loads(JOB_FILE.read_text(encoding="utf-8"))
 
 FFBIN = pathlib.Path(r"C:\Users\warit\AppData\Local\hermes\tools\ffmpeg-9.0.1-win32-x64\bin")
@@ -25,3 +28,5 @@ CLIP_MAX_S = _job["CLIP_MAX_S"]
 CATEGORIES = _job["CATEGORIES"]
 LANGUAGE = _job["LANGUAGE"]
 VIDEO_EXTS = {".mp4", ".mkv", ".mov", ".webm", ".ts", ".m4v"}
+GAME_OVERRIDES = _job.get("GAME_OVERRIDES", {})        # file-name substring -> game name
+RESOLVE_PROJECTS = _job.get("RESOLVE_PROJECTS", {})    # Resolve project -> [source_id, ...]

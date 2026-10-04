@@ -6,9 +6,9 @@
 
 | ตัวแปร | ค่า | หมายเหตุ |
 |---|---|---|
-| `INPUT_DIR` | `Z:\hoshi\2026-09` | โฟลเดอร์ฟุตเทจ อ่านอย่างเดียว เปลี่ยนบ่อย: แก้บรรทัดนี้บรรทัดเดียว |
-| `CHANNEL` | `hoshi_1489` | ชื่อช่อง/ศิลปิน ใช้ตั้งชื่อโฟลเดอร์ผลงานและบริบทให้ subagent |
-| `JOB` | `2026-09` | ชื่องาน ปกติใช้ชื่อโฟลเดอร์ท้ายสุดของ `INPUT_DIR` ใช้ตั้งชื่อโฟลเดอร์งานและโปรเจกต์ Resolve |
+| `INPUT_DIR` | `Z:\Aommi-mama\2026-09-aomimama` | โฟลเดอร์ฟุตเทจ อ่านอย่างเดียว เปลี่ยนบ่อย: แก้บรรทัดนี้บรรทัดเดียว |
+| `CHANNEL` | `Aommimama` | ชื่อช่อง/ศิลปิน ใช้ตั้งชื่อโฟลเดอร์ผลงานและบริบทให้ subagent |
+| `JOB` | `2026-09-aomimama` | ชื่องาน ปกติใช้ชื่อโฟลเดอร์ท้ายสุดของ `INPUT_DIR` ใช้ตั้งชื่อโฟลเดอร์งานและโปรเจกต์ Resolve |
 | `WORK_DIR` | `D:\agent-seacrh-virus-cut\work\<CHANNEL>\<JOB>` | ผลงานทั้งหมดอยู่ในนี้ แยกต่อช่อง ต่องาน ไม่ทับกัน |
 | `CLIP_MIN_S` / `CLIP_MAX_S` | `30` / `180` | ความยาวคลิป (วินาที) เป้าหมายกลางๆ 45-120 |
 | `CATEGORIES` | `gameplay`, `fun`, `meme` | ประเภทคลิปที่ต้องการ ช่องอื่นแก้รายการนี้ได้ (ดูนิยามด้านล่าง) |
@@ -16,8 +16,11 @@
 | `ASPECT` | `16:9` (1920x1080) | หรือ `9:16` (1080x1920) |
 | `LANGUAGE` | `th` | ภาษาพูดในวิดีโอ ใช้กับ Whisper |
 | `APPROVAL` | `auto` | `ask` = หยุดรออนุมัติรายการคลิปก่อนสร้าง Timeline, `auto` = ทำต่อเลย |
-| `RESOLVE_PROJECT` | `hoshi-2026-09` | ผู้ใช้ยืนยันให้ใช้โปรเจกต์ที่เปิดอยู่ต่อ ไม่ import ซ้ำ แม้ชื่อไม่ตรง `JOB` |
-| `PLAYBACK_FPS_USER_CONFIRMED` | `60` | ผู้ใช้ตรวจ Playback frame rate ใน Project Settings แล้ว; API ตรวจค่านี้ไม่ได้ |
+| `RESOLVE_PROJECTS` | `aomimama-2026-09-p1` = v01-v07, `aomimama-2026-09-p2` = v08-v13 | ผู้ใช้สั่งแยก 2 โปรเจกต์ สร้างแล้วในโฟลเดอร์ `Aommi-mama/2026-09` ของ Project Library `Google drive` (ค่าจริงอยู่ใน `job.json`) |
+| `TIMELINE_FPS` | `60` | ผู้ใช้สั่งใช้ 60 fps ทุกโปรเจกต์ v12 (Becastled 002) เป็น 30 fps ต้นฉบับ Resolve แปลงให้ใน Timeline |
+| `PLAYBACK_FPS_USER_CONFIRMED` | `60` | ผู้ใช้ตั้งและยืนยัน Playback frame rate ใน Project Settings ของทั้งสองโปรเจกต์แล้ว; API ตรวจค่านี้ไม่ได้ |
+| `GAME_NAME` | `จากชื่อไฟล์` | ผู้ใช้สั่งให้ดูชื่อเกมจากชื่อไฟล์ งานนี้ยกเว้นกฎ "ห้ามเดาจากชื่อไฟล์"; ไฟล์ที่ชื่อไม่มีเกมให้แก้ทับใน `job.json` (`GAME_OVERRIDES`) |
+| `TIMELINE_NAME_FORMAT` | `{ชื่อคลิป}-{ชื่อเกม}-vdo` | ผู้ใช้กำหนด ไม่ใส่ id/category |
 
 นิยามหมวด (แก้ตามช่องได้):
 
@@ -39,6 +42,7 @@
 
 เรียกด้วย `skill_view` ก่อนทำอะไรทั้งสิ้น:
 
+- `long-video-highlight-clipping` (โหลดก่อนอย่างอื่น)
 - Subagent Delegation (`delegate_task`)
 - `superpowers:brainstorming`
 - `superpowers:subagent-driven-development`
@@ -72,7 +76,8 @@
 ## Resolve
 
 - ตรวจสดก่อน: `resolve_control runtime_mode`, `project_manager get_current`, `project_manager list`, `project_manager snapshot`
-- ถ้าโปรเจกต์ที่เปิดอยู่ชื่อ `JOB` และมีฟุตเทจใน Media Pool ตรงกับ `INPUT_DIR` ให้ใช้ต่อ ไม่สร้างใหม่ ไม่นำเข้าซ้ำ
+- ถ้ามี `RESOLVE_PROJECTS` ให้ใช้ตามตารางนั้น (หนึ่ง `source_id` อยู่ในโปรเจกต์เดียว): บันทึกโปรเจกต์ที่เปิดอยู่ก่อนสลับทุกครั้ง นำเข้าเฉพาะวิดีโอของโปรเจกต์นั้น และตั้ง `timelineFrameRate` เป็น `TIMELINE_FPS`
+- ถ้าไม่มี `RESOLVE_PROJECTS` และโปรเจกต์ที่เปิดอยู่ชื่อ `JOB` และมีฟุตเทจใน Media Pool ตรงกับ `INPUT_DIR` ให้ใช้ต่อ ไม่สร้างใหม่ ไม่นำเข้าซ้ำ
 - ถ้าเป็นงานใหม่ (ไม่มีโปรเจกต์ หรือฟุตเทจไม่ตรง): ตามกฎ `resolve-rough-cut` ถามผู้ใช้ว่าจะเพิ่ม Timeline ในโปรเจกต์ซีรีส์เดิมหรือสร้างใหม่ ตั้ง `timelineFrameRate` ให้ตรง fps ฟุตเทจก่อนมี Timeline อันแรก แล้วสร้างโฟลเดอร์ชื่อ `JOB` ตั้งเป็น current folder ก่อนนำเข้า
 - ห้ามสลับ/ปิดโปรเจกต์ที่มีงานยังไม่บันทึกโดยไม่ถามผู้ใช้
 - Playback frame rate ตั้งผ่าน API ไม่ได้: ให้ผู้ใช้ยืนยันเองที่ Project Settings (ไอคอนเฟืองมุมขวาล่าง) -> Master Settings -> Playback frame rate ห้ามเดาเมนูอื่นเพิ่ม
