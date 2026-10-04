@@ -26,7 +26,7 @@ Hermes skills live outside this repo (`~/.../hermes/skills`); `house-style` is a
 
 ## Pipeline code
 
-Code lives in `work/` (`config.py`, `pipeline.py`, `inventory.py`, `features.py`, `shortlist.py`, `transcribe.py`, `contact_sheet.py`, `packets.py`, `snap.py`, `windows.py`, `build_timelines.py`, `gpu_env.py`) with pytest tests in `work/tests/`. Never hardcode a channel, folder or file list: job variables are in `work/<channel>/<job>/job.json` (mirrored by the `prompt.md` variables table), selected with the `HIGHLIGHT_JOB` environment variable (path to a `job.json`; `config.py` has a default). Per-job artifacts stay in that job folder (`audio/`, `scores/`, `transcripts/`, `frames/`, `review/`, `inventory.json`, `candidates.json`, `timeline_plan.json`).
+Code lives in `work/` (`config.py`, `pipeline.py`, `inventory.py`, `features.py`, `shortlist.py`, `transcribe.py`, `contact_sheet.py`, `packets.py`, `briefs.py`, `snap.py`, `windows.py`, `resolve_clips.py`, `build_timelines.py`, `gpu_env.py`; helpers in `work/tools/`, the reviewer prompt in `work/templates/reviewer_brief.md`) with pytest tests in `work/tests/`. Never hardcode a channel, folder or file list: job variables are in `work/<channel>/<job>/job.json` (mirrored by the `prompt.md` variables table), selected with the `HIGHLIGHT_JOB` environment variable (path to a `job.json`; `config.py` has a default). Per-job artifacts stay in that job folder (`audio/`, `scores/`, `transcripts/`, `frames/`, `review/`, `inventory.json`, `candidates.json`, `timeline_plan.json`).
 
 Setup and checks (run through the `terminal` tool):
 
