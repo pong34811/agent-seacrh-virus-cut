@@ -11,5 +11,7 @@
   "APPROVAL": "auto",
   "RESOLVE_PROJECT": "hoshi-2026-09",
   "PLAYBACK_FPS_USER_CONFIRMED": 60,
-  "TRANSCRIBE_PAD_S": 90
+  "TRANSCRIBE_PAD_S": 90,
+  "GAME_NAME": "Backrooms",
+  "TIMELINE_NAME_FORMAT": "{ชื่อคลิป}-{ชื่อเกม}-vdo"
 }

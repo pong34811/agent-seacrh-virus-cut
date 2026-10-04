@@ -42,7 +42,17 @@ For rough-cut assembly tasks, do not add titles, captions, text cards, transitio
 
 ## Delivery conventions
 
-_Not yet captured._
+- **Rule:** Name Resolve highlight timelines exactly `{ชื่อคลิป}-{ชื่อเกม}-vdo`, without candidate/source IDs or category prefixes. Preserve IDs in job metadata. Use a verified or user-supplied game label; ask about labels for non-game chat segments when unspecified.
+- **Why:** The user wants only the clip title, game name, and `vdo` suffix in the timeline name.
+- **Trap:** Reusing `<id>_<category>_<title>`, or assuming every segment contains the game named in the source filename.
+
+### Apply and verify timeline names
+
+1. Read the current brief and `prompt.md`. Use the exact game label the user confirms for the requested set, including chat segments when the user applies one label to the whole set. Do not hardcode a game name for future jobs or ask again after confirmation.
+2. Build each name as `{ชื่อคลิป}-{ชื่อเกม}-vdo`, preserving the clip title and game label. Do not add IDs, categories, dates, or extra suffixes. Keep ID-to-timeline mappings in job artifacts, not the displayed name. Resolve duplicate names with the user rather than silently appending a number.
+3. For existing timelines, read the live project and timeline list first. Select each target by its stable timeline ID, then call `timeline set_name` sequentially. Rename only: do not rebuild timelines or change clips, tracks, frame ranges, or source files.
+4. Save the project, then read `timeline list` back. Verify every requested timeline ID has its exact planned name and the timeline count is unchanged. A successful rename call alone is not verification.
+5. Update `timeline_plan.json` and the current job report to match the verified names. Preserve candidate IDs and source timestamps. Report the verified count and any unresolved names; do not claim the shared pipeline's naming code changed unless it was actually edited and tested.
 
 ## Color and look
 
