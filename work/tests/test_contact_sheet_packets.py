@@ -15,3 +15,9 @@ def test_format_packet_has_range_transcript_and_sheet():
                                 {0: "frames/v01_003600.jpg"})
     assert "v01-w01" in txt and "1:00:00-1:02:00" in txt and "ฮ่าๆๆ" in txt and "นอกช่วง" not in txt
     assert "frames/v01_003600.jpg" in txt
+
+def test_packet_collapses_repeated_chars_and_truncates():
+    segs = [{"start": 3600.0, "end": 3601.0, "text": "สวัสดีค่า" + "า" * 500}, {"start": 3602.0, "end": 3603.0, "text": "ก" * 2 + "ข" * 400 + "x y " * 200}]
+    txt = packets.format_packet("v01", [(3600.0, 3660.0, 0.5)], segs, {})
+    assert "า" * 4 not in txt
+    assert max(len(l) for l in txt.splitlines()) <= 260
