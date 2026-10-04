@@ -1,4 +1,4 @@
-"""Stage runner: python pipeline.py <inventory|features|shortlist|transcribe|sheets|packets>. Outputs are cached per stage."""
+"""Stage runner: python pipeline.py <inventory|features|shortlist|transcribe|sheets|packets|briefs>. Outputs are cached per stage."""
 import json, sys, time
 from concurrent.futures import ThreadPoolExecutor
 import config
@@ -30,6 +30,9 @@ def stage_transcribe():
 
 def stage_sheets():
     import contact_sheet; contact_sheet.run_all()
+
+def stage_briefs():
+    import briefs; briefs.run_all()
 
 def stage_packets():
     import packets; packets.run_all()

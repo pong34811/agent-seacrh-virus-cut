@@ -1,13 +1,20 @@
 """Single source of truth for job parameters. Reads job.json (see prompt.md variables table)."""
-import json, os, pathlib
+import json, os, pathlib, shutil
 
-CODE_DIR = pathlib.Path(__file__).parent
+CODE_DIR = pathlib.Path(__file__).parent.resolve()
 JOB_FILE = pathlib.Path(os.environ.get("HIGHLIGHT_JOB", CODE_DIR / "hoshi" / "2026-10-03" / "job.json"))
 _job = json.loads(JOB_FILE.read_text(encoding="utf-8"))
 
 FFBIN = pathlib.Path(r"C:\Users\warit\AppData\Local\hermes\tools\ffmpeg-9.0.1-win32-x64\bin")
-FFMPEG = str(FFBIN / "ffmpeg.exe")
-FFPROBE = str(FFBIN / "ffprobe.exe")
+def _tool(env: str, exe: str) -> str:
+    """env override, then the bundled Hermes ffmpeg, then PATH."""
+    if os.environ.get(env):
+        return os.environ[env]
+    bundled = FFBIN / (exe + ".exe")
+    return str(bundled) if bundled.exists() else (shutil.which(exe) or exe)
+
+FFMPEG = _tool("HIGHLIGHT_FFMPEG", "ffmpeg")
+FFPROBE = _tool("HIGHLIGHT_FFPROBE", "ffprobe")
 
 INPUT_DIR = pathlib.Path(_job["INPUT_DIR"])
 CHANNEL = _job["CHANNEL"]

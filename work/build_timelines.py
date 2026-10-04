@@ -1,5 +1,5 @@
 """Candidates -> Resolve clip_infos / timeline names. Resolve calls themselves go through the Resolve MCP."""
-import glob, json, pathlib, re
+import glob, json, pathlib, re, sys
 import config
 
 def to_clip_infos(c: dict, clip_id: str, fps: float = 60) -> list[dict]:
@@ -19,6 +19,13 @@ def merge_reviews(review_dir: pathlib.Path | None = None) -> list[dict]:
         out += sorted(json.loads(pathlib.Path(f).read_text(encoding="utf-8")), key=lambda c: c["start_s"])
     return out
 
+def calls(plan: list[dict], start: int = 0, end: int | None = None) -> list[dict]:
+    """Ready-to-send Resolve MCP payloads (one `media_pool create_timeline_from_clips` per planned timeline)."""
+    return [{"name": "mcp__davinci_resolve__media_pool",
+             "arguments": {"action": "create_timeline_from_clips",
+                           "params": {"name": x["name"], "clip_infos": x["clip_infos"], "if_exists": "fail"}}}
+            for x in plan[start:end]]
+
 def main() -> None:
     cands = merge_reviews()
     (config.WORK_DIR / "candidates.json").write_text(json.dumps(cands, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -28,4 +35,10 @@ def main() -> None:
     print(len(plan), "timelines planned")
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 1 and sys.argv[1] == "calls":
+        plan = json.loads((config.WORK_DIR / "timeline_plan.json").read_text(encoding="utf-8"))
+        a = int(sys.argv[2]) if len(sys.argv) > 2 else 0
+        z = int(sys.argv[3]) if len(sys.argv) > 3 else None
+        print(json.dumps(calls(plan, a, z), ensure_ascii=False, separators=(",", ":")))
+    else:
+        main()
