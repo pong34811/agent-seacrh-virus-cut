@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.log
+hoshi/*/audio/
+hoshi/*/frames/
+hoshi/*/transcripts/
+hoshi/*/scores/
+hoshi/*/proxy/
