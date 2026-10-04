@@ -1,0 +1,1 @@
+Task 0-6 complete (ledger in git log); Task 7 dispatching
