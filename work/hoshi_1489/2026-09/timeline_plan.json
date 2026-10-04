@@ -1,0 +1,86 @@
+[
+ {
+  "name": "v01-01_meme_ไลฟ์ในใจระหว่างรอโหลด",
+  "clip_infos": [
+   {
+    "clip_id": "6de88afe-d3d2-4fa8-aad6-1cec576c2403",
+    "start_frame": 39000,
+    "end_frame": 42736,
+    "record_frame": 0
+   }
+  ],
+  "candidate": "v01-01"
+ },
+ {
+  "name": "v01-02_gameplay_ลงเรือแล้วใครจะพาย",
+  "clip_infos": [
+   {
+    "clip_id": "6de88afe-d3d2-4fa8-aad6-1cec576c2403",
+    "start_frame": 178257,
+    "end_frame": 183600,
+    "record_frame": 0
+   }
+  ],
+  "candidate": "v01-02"
+ },
+ {
+  "name": "v01-03_gameplay_มืดจนแยกเพื่อนไม่ออก",
+  "clip_infos": [
+   {
+    "clip_id": "6de88afe-d3d2-4fa8-aad6-1cec576c2403",
+    "start_frame": 232389,
+    "end_frame": 238823,
+    "record_frame": 0
+   }
+  ],
+  "candidate": "v01-03"
+ },
+ {
+  "name": "v01-04_gameplay_กำลังจะเข้า ใครปิดก่อน",
+  "clip_infos": [
+   {
+    "clip_id": "6de88afe-d3d2-4fa8-aad6-1cec576c2403",
+    "start_frame": 300106,
+    "end_frame": 303720,
+    "record_frame": 0
+   }
+  ],
+  "candidate": "v01-04"
+ },
+ {
+  "name": "v01-05_gameplay_หาเจอแล้ว แต่ไม่รอด",
+  "clip_infos": [
+   {
+    "clip_id": "6de88afe-d3d2-4fa8-aad6-1cec576c2403",
+    "start_frame": 474172,
+    "end_frame": 478095,
+    "record_frame": 0
+   }
+  ],
+  "candidate": "v01-05"
+ },
+ {
+  "name": "v01-06_fun_โดเนตทวงสัญญาที่จำไม่ได้",
+  "clip_infos": [
+   {
+    "clip_id": "6de88afe-d3d2-4fa8-aad6-1cec576c2403",
+    "start_frame": 549568,
+    "end_frame": 556816,
+    "record_frame": 0
+   }
+  ],
+  "candidate": "v01-06"
+ },
+ {
+  "name": "v01-07_meme_เรียนภาษา จบที่เรื่องเงิน",
+  "clip_infos": [
+   {
+    "clip_id": "6de88afe-d3d2-4fa8-aad6-1cec576c2403",
+    "start_frame": 675284,
+    "end_frame": 681925,
+    "record_frame": 0
+   }
+  ],
+  "candidate": "v01-07"
+ }
+]
