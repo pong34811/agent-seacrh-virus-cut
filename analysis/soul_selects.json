@@ -1,0 +1,133 @@
+{
+  "sources": [
+    {
+      "id": "ea1a7da3-ca57-48fd-81d7-ed41546fdfaf",
+      "name": "【🔴 LIVE】Soul Walker - 004 ｜ 19⧸09⧸2026 ｜  @NJaACh ​@LaffeyNilvalen.mp4",
+      "path": "G:\\My Drive\\Projects\\Katy404\\2026-09-29\\【🔴 LIVE】Soul Walker - 004 ｜ 19⧸09⧸2026 ｜  @NJaACh ​@LaffeyNilvalen.mp4",
+      "fps": 30,
+      "frames": "324030",
+      "duration": "03:00:01:00",
+      "codec": "H.264 High L4.0",
+      "audio": "opus",
+      "resolution": "1920x1080",
+      "status": "Online"
+    },
+    {
+      "id": "b7bf1e93-e22b-4912-bd8c-1a01679d082f",
+      "name": "【🔴 LIVE】Soul Walker - 003 ｜ 12⧸09⧸2026 ｜  @NJaACh ​@LaffeyNilvalen.mp4",
+      "path": "G:\\My Drive\\Projects\\Katy404\\2026-09-29\\【🔴 LIVE】Soul Walker - 003 ｜ 12⧸09⧸2026 ｜  @NJaACh ​@LaffeyNilvalen.mp4",
+      "fps": 60,
+      "frames": "565380",
+      "duration": "02:37:03:00",
+      "codec": "H.264 High L4.2",
+      "audio": "opus",
+      "resolution": "1920x1080",
+      "status": "Online"
+    }
+  ],
+  "coverage": {
+    "visual": "all source duration at 120-second orientation; targeted gameplay windows at 10 seconds; core boundaries at 2 seconds",
+    "transcript": "pending"
+  },
+  "complete": false,
+  "selects": [
+    {
+      "slug": "soul_003",
+      "source_clip_id": "b7bf1e93-e22b-4912-bd8c-1a01679d082f",
+      "in_seconds": 7859,
+      "out_seconds": 7941,
+      "duration_seconds": 82,
+      "title_th": "Dreadful Echo: ลุยสนามพลังจนจบเควสต์",
+      "category": [
+        "gameplay"
+      ],
+      "priority": "A",
+      "hook": "เริ่มเข้าพื้นที่ต่อสู้ มีศัตรูและสนามพลังสีเขียวขวางทาง",
+      "payoff": "รับมือฝูงศัตรู ต่อสู้ผ่านเกราะพลัง แล้วจบ Quest: Goodbye และขึ้น S+",
+      "beat_second": 7932,
+      "reason": "ภาพเกมมีสถานการณ์ต่อเนื่องและบทสรุปชัดเจน พร้อมเอฟเฟกต์สนามพลังและการปะทะที่ต่างจากบอสตายทันที",
+      "transcript_evidence": [],
+      "visual_evidence": [
+        {
+          "seconds": 7860,
+          "description": "inspected contact sheet frame at source seconds"
+        },
+        {
+          "seconds": 7880,
+          "description": "inspected contact sheet frame at source seconds"
+        },
+        {
+          "seconds": 7890,
+          "description": "inspected contact sheet frame at source seconds"
+        },
+        {
+          "seconds": 7920,
+          "description": "inspected contact sheet frame at source seconds"
+        },
+        {
+          "seconds": 7932,
+          "description": "inspected contact sheet frame at source seconds"
+        },
+        {
+          "seconds": 7936,
+          "description": "inspected contact sheet frame at source seconds"
+        }
+      ],
+      "confidence": "high_visual_pending_transcript",
+      "notes": "Preliminary core select; exact visual source seconds established with 2-second frame samples; transcript review pending."
+    },
+    {
+      "slug": "soul_004",
+      "source_clip_id": "ea1a7da3-ca57-48fd-81d7-ed41546fdfaf",
+      "in_seconds": 9116,
+      "out_seconds": 9251,
+      "duration_seconds": 135,
+      "title_th": "ปะทะมังกรยักษ์ในสนามคริสตัล",
+      "category": [
+        "gameplay"
+      ],
+      "priority": "A",
+      "hook": "มังกรปรากฏในสนามคริสตัลเขียวพร้อมแถบพลังบอส",
+      "payoff": "ปะทะต่อเนื่องประมาณสองนาที มังกรสีขาวล้มลง ก่อนบทส่งท้ายในสนาม",
+      "beat_second": 9240,
+      "reason": "ไฟต์ยาวมีการเปลี่ยนตำแหน่ง ใช้สกิลหลายรอบ และผลแพ้ชนะที่เห็นได้ เหมาะเป็น gameplay highlight ต่างจากดันเจียนที่บอสตายในไม่กี่วินาที",
+      "transcript_evidence": [],
+      "visual_evidence": [
+        {
+          "seconds": 9116,
+          "description": "inspected contact sheet frame at source seconds"
+        },
+        {
+          "seconds": 9122,
+          "description": "inspected contact sheet frame at source seconds"
+        },
+        {
+          "seconds": 9150,
+          "description": "inspected contact sheet frame at source seconds"
+        },
+        {
+          "seconds": 9200,
+          "description": "inspected contact sheet frame at source seconds"
+        },
+        {
+          "seconds": 9238,
+          "description": "inspected contact sheet frame at source seconds"
+        },
+        {
+          "seconds": 9240,
+          "description": "inspected contact sheet frame at source seconds"
+        },
+        {
+          "seconds": 9246,
+          "description": "inspected contact sheet frame at source seconds"
+        },
+        {
+          "seconds": 9250,
+          "description": "inspected contact sheet frame at source seconds"
+        }
+      ],
+      "confidence": "high_visual_pending_transcript",
+      "notes": "Preliminary core select; exact visual source seconds established with 2-second frame samples; transcript review pending."
+    }
+  ]
+}

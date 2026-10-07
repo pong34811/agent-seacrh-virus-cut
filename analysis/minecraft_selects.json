@@ -1,0 +1,510 @@
+{
+  "sources": [
+    {
+      "id": "17835c32-d0f1-46b4-878c-32c3b5dedae6",
+      "name": "【🔴 LIVE】Minecraft - 003  ｜ 21⧸09⧸2569 ｜ #katy404live.mp4",
+      "path": "G:\\My Drive\\Projects\\Katy404\\2026-09-29\\【🔴 LIVE】Minecraft - 003  ｜ 21⧸09⧸2569 ｜ #katy404live.mp4",
+      "fps": 60,
+      "frames": "438600",
+      "duration": "02:01:50:00",
+      "codec": "H.264 High L4.2",
+      "audio": "opus",
+      "resolution": "1920x1080",
+      "status": "Online"
+    },
+    {
+      "id": "5331d535-bc6a-4b6b-aeae-526ff286bd2d",
+      "name": "【🔴 LIVE】Minecraft - 002  ｜ 14⧸09⧸2569 ｜ #katy404live.mp4",
+      "path": "G:\\My Drive\\Projects\\Katy404\\2026-09-29\\【🔴 LIVE】Minecraft - 002  ｜ 14⧸09⧸2569 ｜ #katy404live.mp4",
+      "fps": 60,
+      "frames": "546121",
+      "duration": "02:31:42:01",
+      "codec": "H.264 High L4.2",
+      "audio": "opus",
+      "resolution": "1920x1080",
+      "status": "Online"
+    }
+  ],
+  "coverage": {
+    "minecraft_003": 0,
+    "minecraft_002": 9102.017
+  },
+  "selects": [
+    {
+      "slug": "minecraft_002",
+      "source_clip_id": "5331d535-bc6a-4b6b-aeae-526ff286bd2d",
+      "in_seconds": 788,
+      "out_seconds": 898,
+      "title_th": "ขุดมั่วเจอเหล็กกองใหญ่",
+      "category": "gameplay",
+      "priority": 2,
+      "hook": "ขุดทองแดงตามปกติแล้วเจอเหล็กต่อเนื่อง",
+      "payoff": "Fortune ทำให้เก็บเหล็กได้ 32 อันและดีใจออกเสียง",
+      "reason": "เรื่องสั้นชัดจากหาทรัพยากรไปเจอแร่กองใหญ่ เห็นตัวเลขของจริงใน HUD",
+      "transcript_evidence": [
+        {
+          "start": 791.92,
+          "end": 894.96,
+          "text": "เจอเหล็กแล้ว... โอ้โห เหล็กบานเลย...ได้มา 32 อัน หวานเจี๊ยบ"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "seconds": 805,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_00805.jpg",
+          "description": "ขุดทองแดงก่อนพบแร่เหล็ก"
+        },
+        {
+          "seconds": 825,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_00825.jpg",
+          "description": "สายแร่เหล็กต่อเนื่องในผนัง"
+        },
+        {
+          "seconds": 830,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_00830.jpg",
+          "description": "เก็บ raw iron เป็นกอง 32 อันใน hotbar"
+        }
+      ],
+      "confidence": "high",
+      "notes": "",
+      "beat_second": 825
+    },
+    {
+      "slug": "minecraft_002",
+      "source_clip_id": "5331d535-bc6a-4b6b-aeae-526ff286bd2d",
+      "in_seconds": 2062,
+      "out_seconds": 2154,
+      "title_th": "คุยกับเพื่อนตั้งนาน ลืมเอาเสียงเข้าไลฟ์",
+      "category": "meme",
+      "priority": 1,
+      "hook": "ระหว่างขุดเหมืองพูดคุยกับเพื่อน",
+      "payoff": "นึกได้ว่าไม่ได้ส่งเสียงเพื่อนเข้าไลฟ์และแซวปัญหาหน้างาน",
+      "reason": "streamer blooper ที่เข้าใจได้ทันทีและเป็นจังหวะ meme แบบธรรมชาติ",
+      "transcript_evidence": [
+        {
+          "start": 2065.71,
+          "end": 2107.5,
+          "text": "จบกันแล้ว...ลืมเอาเสียง...ลืมเอาเสียงพี่เข้าสตรีม"
+        },
+        {
+          "start": 2108.3,
+          "end": 2151.39,
+          "text": "เจอปัญหาหน้างานไง"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "seconds": 2062,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_02062.jpg",
+          "description": "กำลังขุดทางลงถ้ำ"
+        },
+        {
+          "seconds": 2100,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_02100.jpg",
+          "description": "ขุดอยู่ขณะพูดถึงการตั้งเสียง"
+        },
+        {
+          "seconds": 2140,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_02140.jpg",
+          "description": "ภาพ gameplay ต่อเนื่องรองรับ reaction"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "ASR ช่วงท้ายมีอักษรซ้ำ จังหวะพูดจบยังต้องฟังทวนใน rough-cut",
+      "beat_second": 2100
+    },
+    {
+      "slug": "minecraft_002",
+      "source_clip_id": "5331d535-bc6a-4b6b-aeae-526ff286bd2d",
+      "in_seconds": 2296,
+      "out_seconds": 2410,
+      "title_th": "ลืมเสบียง จนต้องกินเนื้อซอมบี",
+      "category": "fun",
+      "priority": 1,
+      "hook": "เข้าเหมืองทั้งที่ไม่มีของกิน",
+      "payoff": "สู้ซอมบีแล้วกิน rotten flesh เพื่อประทังชีวิต",
+      "reason": "ปัญหาและทางแก้ชัด มีมุกบ่นเรื่องเนื้อซอมบีพร้อมภาพพิสูจน์ ไม่ใช้ความดังเป็นเหตุผล",
+      "transcript_evidence": [
+        {
+          "start": 2298.88,
+          "end": 2327.06,
+          "text": "แม่งไม่มีของกิน...ตอนแรกว่าจะมาขุดดินเหนียว...อยู่ไปอยู่มาก็มาอยู่ดัน"
+        },
+        {
+          "start": 2327.66,
+          "end": 2362.61,
+          "text": "ซอมบีเยอะมากเลย...จะแดกเนื้อซอมบีแทน"
+        },
+        {
+          "start": 2367.57,
+          "end": 2400.0,
+          "text": "...มันมีข้าว...แดกเนื้อคนไปแล้ว...เสบียงหมด"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "seconds": 2300,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_02300.jpg",
+          "description": "กำลังฟันซอมบีในเหมือง"
+        },
+        {
+          "seconds": 2330,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_02330.jpg",
+          "description": "เกิดเอฟเฟกต์สถานะและเลือดลดระหว่างหาอาหาร"
+        },
+        {
+          "seconds": 2390,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_02390.jpg",
+          "description": "กิน rotten flesh ที่ดรอปจากซอมบี"
+        },
+        {
+          "seconds": 2400,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_02400.jpg",
+          "description": "กินต่อพร้อมที่กำบังในถ้ำ"
+        }
+      ],
+      "confidence": "high",
+      "notes": "",
+      "beat_second": 2390
+    },
+    {
+      "slug": "minecraft_002",
+      "source_clip_id": "5331d535-bc6a-4b6b-aeae-526ff286bd2d",
+      "in_seconds": 2442,
+      "out_seconds": 2522,
+      "title_th": "Creeper ระเบิดข้างกรง แต่กรงยังรอด",
+      "category": "gameplay",
+      "priority": 1,
+      "hook": "สู้ซอมบีข้าง mob spawner แล้ว Creeper เข้ามา",
+      "payoff": "เลือดลดหนักหลังระเบิด แต่พบว่า spawner ยังไม่แตก",
+      "reason": "setup/payoff ของเหตุการณ์ระเบิดมีหลักฐานสุขภาพและกรงก่อนหลังครบ",
+      "transcript_evidence": [
+        {
+          "start": 2450.61,
+          "end": 2490.77,
+          "text": "พี่พูดปุ๊บ...Creeper แม่งระเบิด...ทำลายหลักฐาน"
+        },
+        {
+          "start": 2490.77,
+          "end": 2519.22,
+          "text": "กรงไม่แตก...กรงมันยังไม่แตก...ซอมบีเกิด"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "seconds": 2445,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_02445.jpg",
+          "description": "ซอมบีกับ Creeper อยู่ข้าง spawner"
+        },
+        {
+          "seconds": 2453,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_02453.jpg",
+          "description": "เลือดลดลงเหลือประมาณสองถึงสามหัวใจหลังระเบิด"
+        },
+        {
+          "seconds": 2517,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_02517.jpg",
+          "description": "spawner ยังอยู่และใช้งานได้"
+        }
+      ],
+      "confidence": "high",
+      "notes": "",
+      "beat_second": 2451
+    },
+    {
+      "slug": "minecraft_002",
+      "source_clip_id": "5331d535-bc6a-4b6b-aeae-526ff286bd2d",
+      "in_seconds": 3780,
+      "out_seconds": 3824,
+      "title_th": "เห็นแร่จนสงสัยว่าตัวเองมี X-ray",
+      "category": "meme",
+      "priority": 1,
+      "hook": "กลับลงทางน้ำในถ้ำแล้วเห็นแร่สีสดทันที",
+      "payoff": "แซวว่าลงดันจนเห็นแร่ได้เหมือน X-ray",
+      "reason": "มุก self-deprecating เชื่อมกับภาพแร่ชัด และเล่าได้ในช่วงสั้น",
+      "transcript_evidence": [
+        {
+          "start": 3783.86,
+          "end": 3821.17,
+          "text": "รูบี้นี่วะ...เพชร...X-ray เปล่า...ลงดันจนสามารถเห็นแร่ได้แล้ว"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "seconds": 3787,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_03787.jpg",
+          "description": "แร่เพชรและแร่สีแดงเห็นชัดในผนังทางน้ำ"
+        },
+        {
+          "seconds": 3807,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_03807.jpg",
+          "description": "เดินผ่านสายแร่ต่อเนื่อง"
+        },
+        {
+          "seconds": 3817,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_03817.jpg",
+          "description": "แร่เพชรอีกก้อนปรากฏข้างตัว"
+        }
+      ],
+      "confidence": "high",
+      "notes": "",
+      "beat_second": 3787
+    },
+    {
+      "slug": "minecraft_002",
+      "source_clip_id": "5331d535-bc6a-4b6b-aeae-526ff286bd2d",
+      "in_seconds": 5265,
+      "out_seconds": 5345,
+      "title_th": "ออกหา NPC วนกลับมาบ้านตัวเอง",
+      "category": "fun",
+      "priority": 2,
+      "hook": "เดินสำรวจหาโลเคชันที่มีชาวบ้าน",
+      "payoff": "เดินวนกลับมาที่กล่องฐานตัวเองพร้อม reaction",
+      "reason": "ความหลงทางมี payoff ที่ผู้ชมเห็นจุดเดิมได้จริง ก่อนเดินทางต่อ",
+      "transcript_evidence": [
+        {
+          "start": 5268.3,
+          "end": 5342.22,
+          "text": "กำลังหาจุดโลเคชันที่มันมี NPC...เดินไปเดินมาแม่งวนกลับมาบ้านตัวเอง"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "seconds": 5265,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_05265.jpg",
+          "description": "เดินบนภูเขาหิมะเพื่อหาหมู่บ้าน"
+        },
+        {
+          "seconds": 5295,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_05295.jpg",
+          "description": "กลับมาเปิดกล่องของฐาน"
+        },
+        {
+          "seconds": 5305,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_05305.jpg",
+          "description": "เปิดกล่องอีกใบในฐานเดิม"
+        },
+        {
+          "seconds": 5345,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_05345.jpg",
+          "description": "ฐานถ้ำและภูเขาจุดคุ้นเคยในภาพ"
+        }
+      ],
+      "confidence": "high",
+      "notes": "",
+      "beat_second": 5295
+    },
+    {
+      "slug": "minecraft_002",
+      "source_clip_id": "5331d535-bc6a-4b6b-aeae-526ff286bd2d",
+      "in_seconds": 5607,
+      "out_seconds": 5730,
+      "title_th": "ต้องพายเรือ หรือหิ้วเรือขึ้นเขา",
+      "category": "meme",
+      "priority": 1,
+      "hook": "พยายามขนชาวบ้านด้วยเรือบนภูเขาแล้วถามว่าต้องดันหรือต้องพาย",
+      "payoff": "หิ้วเรือค้างบนทางลาด ร้องให้เพื่อนช่วย และได้เพื่อนเข้ามาช่วยจัดทาง",
+      "reason": "ภาพเรือบนไหล่และภูเขาดูผิดธรรมชาติทันที จับคู่บทพูดช่วยด้วยเป็น meme ชัด",
+      "transcript_evidence": [
+        {
+          "start": 5610.26,
+          "end": 5647.18,
+          "text": "มันต้องดันหรือต้องพายวะพี่"
+        },
+        {
+          "start": 5648.11,
+          "end": 5682.42,
+          "text": "พี่...ช่วยด้วย"
+        },
+        {
+          "start": 5682.45,
+          "end": 5725.09,
+          "text": "กระโดดไม่ได้...พี่ใจเย็น...ค่อยๆ"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "seconds": 5625,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_05625.jpg",
+          "description": "มุมมองจากในเรือที่มี villager"
+        },
+        {
+          "seconds": 5635,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_05635.jpg",
+          "description": "เปลี่ยนเป็นมุมบุคคลที่สาม เห็นเรือถูกหิ้วอยู่บนเนิน"
+        },
+        {
+          "seconds": 5665,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_05665.jpg",
+          "description": "ผู้เล่นกับชาวบ้านค้างบนทางลาดสูง"
+        },
+        {
+          "seconds": 5705,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_05705.jpg",
+          "description": "เพื่อนยืนข้างเรือช่วยแก้เส้นทาง"
+        },
+        {
+          "seconds": 5725,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_05725.jpg",
+          "description": "เรือกับชาวบ้านเคลื่อนมายังทางลงบ้าน"
+        }
+      ],
+      "confidence": "high",
+      "notes": "",
+      "beat_second": 5635
+    },
+    {
+      "slug": "minecraft_002",
+      "source_clip_id": "5331d535-bc6a-4b6b-aeae-526ff286bd2d",
+      "in_seconds": 6203,
+      "out_seconds": 6341,
+      "title_th": "พาชาวบ้านกลับฐาน รอดมาได้ตัวเดียว",
+      "category": "gameplay",
+      "priority": 2,
+      "hook": "ล่อชาวบ้านผ่านทางหิมะช่วงสุดท้ายก่อนถึงฐาน",
+      "payoff": "พามาถึงประตูบ้านได้สำเร็จ พร้อมยอมรับว่ากลับมาได้ตัวเดียว",
+      "reason": "หนึ่งตอนของภารกิจขน villager มีการเดินทางและจุดถึงบ้านในช่วง 2 นาที",
+      "transcript_evidence": [
+        {
+          "start": 6206.46,
+          "end": 6257.02,
+          "text": "จะถึงบ้านแล้ว...ตอนนี้ผมถึงฟาร์มแกะแล้ว...ยังเหลืออีกตัวหนึ่ง"
+        },
+        {
+          "start": 6257.02,
+          "end": 6306.91,
+          "text": "เอาเข้าบ้าน...ผมได้มาตัวเดียว...รอดได้แค่ตัวเดียว...สองตัวก็พอผสมพันธุ์ได้"
+        },
+        {
+          "start": 6306.91,
+          "end": 6338.05,
+          "text": "เข้าบ้านมา...เย้...เข้ามาได้ไหม"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "seconds": 6220,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_06220.jpg",
+          "description": "วาง grindstone เพื่อดึงชาวบ้านเข้าเส้นทาง"
+        },
+        {
+          "seconds": 6300,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_06300.jpg",
+          "description": "ชาวบ้านตามมาบนผืนน้ำแข็ง"
+        },
+        {
+          "seconds": 6320,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_06320.jpg",
+          "description": "เดินเข้าโถงฐานใต้ภูเขา"
+        },
+        {
+          "seconds": 6340,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_06340.jpg",
+          "description": "ปิดหรือจัดประตูบ้านหลังพาชาวบ้านกลับ"
+        }
+      ],
+      "confidence": "high",
+      "notes": "",
+      "beat_second": 6320
+    },
+    {
+      "slug": "minecraft_002",
+      "source_clip_id": "5331d535-bc6a-4b6b-aeae-526ff286bd2d",
+      "in_seconds": 7935,
+      "out_seconds": 8057,
+      "title_th": "ชวนชาวบ้านเพิ่มประชากร ขนมปังหายครึ่งกอง",
+      "category": "fun",
+      "priority": 1,
+      "hook": "อยากให้ชาวบ้านผสมพันธุ์จึงลองโยนขนมปังให้",
+      "payoff": "จำนวนขนมปังลดลงมาก แต่ยังไม่เห็นลูกชาวบ้าน แล้วบ่นกินไปครึ่งกอง",
+      "reason": "มุกทดลองเกมที่คนดูตามเหตุและผลได้ ภาพขนมปังลอยกับ count ลดช่วยเล่าเรื่อง",
+      "transcript_evidence": [
+        {
+          "start": 7938.85,
+          "end": 7970.98,
+          "text": "ผมขอลอง...ถ้าผสมพันธุ์ใช้วิธีนี้ไหม...มาขโมยผมไปแล้ว...ให้อาหาร"
+        },
+        {
+          "start": 8009.94,
+          "end": 8054.13,
+          "text": "แดกขนมปังผมไปครึ่งนึง...กลับไปบ้านตัวเอง...ให้อาหารมีเตียง...เดี๋ยวไปลอง"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "seconds": 7935,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_07935.jpg",
+          "description": "ชาวบ้านสองตัวอยู่กับผู้เล่นในโถง"
+        },
+        {
+          "seconds": 7965,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_07965.jpg",
+          "description": "ขนมปังถูกโยนลอยออกไปและ count ลด"
+        },
+        {
+          "seconds": 7995,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_07995.jpg",
+          "description": "โยนขนมปังให้ชาวบ้านอีกครั้ง"
+        },
+        {
+          "seconds": 8010,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_08010.jpg",
+          "description": "ยังเป็นชาวบ้านเดิมที่โตแล้วขณะกลับออกประตู"
+        }
+      ],
+      "confidence": "high",
+      "notes": "เสียงช่วง7971–8009 ASRซ้ำ how to; ควรฟังทวนจังหวะเงียบเพื่อ tighten ภายหลัง",
+      "beat_second": 7965
+    },
+    {
+      "slug": "minecraft_002",
+      "source_clip_id": "5331d535-bc6a-4b6b-aeae-526ff286bd2d",
+      "in_seconds": 8592,
+      "out_seconds": 8674,
+      "title_th": "ทำฟาร์มในหิมะ น้ำแข็งจนต้องทำหลังคา",
+      "category": "gameplay",
+      "priority": 2,
+      "hook": "แปลงใหม่เจอปัญหาน้ำแช่แข็งทำให้ต้องวนแก้",
+      "payoff": "เข้าใจว่าต้องมีหลังคาแล้ววางบล็อกคลุมจุดน้ำ ก่อนปลูกเมล็ดต่อ",
+      "reason": "ปัญหาจาก biome และการแก้ด้วยหลังคาเล่าเป็นตอนจบในตัวเองได้",
+      "transcript_evidence": [
+        {
+          "start": 8595.09,
+          "end": 8632.88,
+          "text": "น้ำ...ติดแช่แข็ง...ไม่มีหลังคา...มันต้องทำหลังคา"
+        },
+        {
+          "start": 8636.98,
+          "end": 8670.54,
+          "text": "เราถูกแล้ว...เดี๋ยวไลฟ์หน้า"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "seconds": 8607,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_08607.jpg",
+          "description": "ตรวจจุดน้ำและดินในแปลงหิมะ"
+        },
+        {
+          "seconds": 8637,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_08637.jpg",
+          "description": "จุดน้ำตรงกลางแปลง"
+        },
+        {
+          "seconds": 8652,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_08652.jpg",
+          "description": "วางบล็อกดินเหนือบริเวณแปลง"
+        },
+        {
+          "seconds": 8667,
+          "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\minecraft_review\\minecraft_002_08667.jpg",
+          "description": "พืชเริ่มเต็มแปลงหลังจัดจุดน้ำ"
+        }
+      ],
+      "confidence": "high",
+      "notes": "",
+      "beat_second": 8652
+    }
+  ],
+  "limitations": "ASR is approximate and sometimes hallucinated; only coherent excerpts corroborated by source stills were selected. Ranges preserve original source and include brief context handles."
+}

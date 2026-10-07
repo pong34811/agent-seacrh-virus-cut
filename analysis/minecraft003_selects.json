@@ -1,0 +1,18 @@
+[
+  {
+    "select_id": "minecraft003_01",
+    "slug": "minecraft_003",
+    "source_clip_id": "17835c32-d0f1-46b4-878c-32c3b5dedae6",
+    "in_seconds": 6055,
+    "out_seconds": 6153,
+    "timeline_name": "K404_26_MC003_ColdEscape",
+    "title_th": "ขุดทางออกจากถ้ำจนหนาว เกมเตือนให้รีบอุ่นตัว",
+    "category": "gameplay",
+    "priority": "B",
+    "hook": "ผู้เล่นหาทางออกจากถ้ำหิมะด้วยการขุดขึ้น",
+    "payoff": "คำเตือนอุณหภูมิขึ้นกลางจอ ก่อนทะลุออกสู่หิมะและกลับไปที่ฐาน",
+    "beat_second": 6080,
+    "reason": "มีแรงกดดันจากระบบอุณหภูมิและทางออกที่มองเห็นจริงในช่วงเวลาเดียวกัน",
+    "confidence": "medium_visual_audio_asr"
+  }
+]

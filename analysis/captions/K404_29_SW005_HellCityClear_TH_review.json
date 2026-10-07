@@ -1,0 +1,282 @@
+{
+  "timeline": "K404_29_SW005_HellCityClear",
+  "timeline_fps": 60,
+  "source_start_seconds": 6570,
+  "source_end_seconds": 6650,
+  "transcription_models": [
+    "faster-whisper-large-v3-turbo",
+    "faster-whisper-large-v3"
+  ],
+  "cue_count": 39,
+  "cues": [
+    {
+      "index": 1,
+      "start_seconds": 0.25,
+      "end_seconds": 1.45,
+      "text": "แกไปเครื่องสองเว้ย\nให้ฉันซัก"
+    },
+    {
+      "index": 2,
+      "start_seconds": 4.92,
+      "end_seconds": 5.84,
+      "text": "โอ้โห เสียใจว่ะ"
+    },
+    {
+      "index": 3,
+      "start_seconds": 5.92,
+      "end_seconds": 6.72,
+      "text": "คนดู ผมขอโทษนะ"
+    },
+    {
+      "index": 4,
+      "start_seconds": 6.74,
+      "end_seconds": 7.72,
+      "text": "ถ้าผมข้ามคัทซีนไปอ่ะ"
+    },
+    {
+      "index": 5,
+      "start_seconds": 8.22,
+      "end_seconds": 9.42,
+      "text": "ผมจะเซ็ต Hotkey\nไม่ใช่อะไร"
+    },
+    {
+      "index": 6,
+      "start_seconds": 11.56,
+      "end_seconds": 12.7,
+      "text": "เปิด EX แม่งเลย"
+    },
+    {
+      "index": 7,
+      "start_seconds": 14.48,
+      "end_seconds": 15.28,
+      "text": "ไอ้เหี้ย เอ๊ย"
+    },
+    {
+      "index": 8,
+      "start_seconds": 15.36,
+      "end_seconds": 16.3,
+      "text": "แล้ว Security Tank ไม่ได้"
+    },
+    {
+      "index": 9,
+      "start_seconds": 16.3,
+      "end_seconds": 17.1,
+      "text": "Search เป็น Security Armored"
+    },
+    {
+      "index": 10,
+      "start_seconds": 17.1,
+      "end_seconds": 18.4,
+      "text": "ตอนลงเรดนะ"
+    },
+    {
+      "index": 11,
+      "start_seconds": 27.44,
+      "end_seconds": 28.5,
+      "text": "จะต้องพึ่งคุณเคน"
+    },
+    {
+      "index": 12,
+      "start_seconds": 28.5,
+      "end_seconds": 29.55,
+      "text": "หนักเลยล่ะ"
+    },
+    {
+      "index": 13,
+      "start_seconds": 29.66,
+      "end_seconds": 31.3,
+      "text": "อัด Key มาเยอะมาก"
+    },
+    {
+      "index": 14,
+      "start_seconds": 31.3,
+      "end_seconds": 32.58,
+      "text": "อ่ะไอ้เหี้ย"
+    },
+    {
+      "index": 15,
+      "start_seconds": 34.08,
+      "end_seconds": 35.12,
+      "text": "ถ้าแพ้อีกก็แดก"
+    },
+    {
+      "index": 16,
+      "start_seconds": 35.12,
+      "end_seconds": 36.18,
+      "text": "วิตามินซีเหมือนเดิม"
+    },
+    {
+      "index": 17,
+      "start_seconds": 38.28,
+      "end_seconds": 39.44,
+      "text": "บอกเลยว่าเล่นจนชิน"
+    },
+    {
+      "index": 18,
+      "start_seconds": 39.44,
+      "end_seconds": 40.66,
+      "text": "อะไอ้เหี้ย บอกเลย"
+    },
+    {
+      "index": 19,
+      "start_seconds": 41.8,
+      "end_seconds": 43.2,
+      "text": "อยู่เปล่า"
+    },
+    {
+      "index": 20,
+      "start_seconds": 43.2,
+      "end_seconds": 44.22,
+      "text": "เจออีกแล้ว"
+    },
+    {
+      "index": 21,
+      "start_seconds": 44.54,
+      "end_seconds": 45.42,
+      "text": "เอาไปเลย"
+    },
+    {
+      "index": 22,
+      "start_seconds": 45.42,
+      "end_seconds": 46.28,
+      "text": "ไอ้เหี้ย"
+    },
+    {
+      "index": 23,
+      "start_seconds": 46.28,
+      "end_seconds": 47.16,
+      "text": "ขอ"
+    },
+    {
+      "index": 24,
+      "start_seconds": 47.16,
+      "end_seconds": 48.28,
+      "text": "อ้าว ชิบหายเรื่อง"
+    },
+    {
+      "index": 25,
+      "start_seconds": 48.56,
+      "end_seconds": 49.55,
+      "text": "เอาไปแล้ว"
+    },
+    {
+      "index": 26,
+      "start_seconds": 49.55,
+      "end_seconds": 50.35,
+      "text": "ลาฟี่กู"
+    },
+    {
+      "index": 27,
+      "start_seconds": 50.35,
+      "end_seconds": 51.78,
+      "text": "โดนจับไป ไอ้เหี้ย"
+    },
+    {
+      "index": 28,
+      "start_seconds": 53.08,
+      "end_seconds": 54.0,
+      "text": "ไอ้เหี้ย"
+    },
+    {
+      "index": 29,
+      "start_seconds": 54.0,
+      "end_seconds": 55.5,
+      "text": "โอ๊ย"
+    },
+    {
+      "index": 30,
+      "start_seconds": 62.82,
+      "end_seconds": 63.8,
+      "text": "ทีวิตน้ำปันอยู่ยาก"
+    },
+    {
+      "index": 31,
+      "start_seconds": 63.8,
+      "end_seconds": 64.5,
+      "text": "ไอ้เหี้ย โดนจับ"
+    },
+    {
+      "index": 32,
+      "start_seconds": 64.5,
+      "end_seconds": 65.48,
+      "text": "เป็นบ้าเล่นเลยคนดู"
+    },
+    {
+      "index": 33,
+      "start_seconds": 65.92,
+      "end_seconds": 67.1,
+      "text": "โดนจับเป็นเรื่องธรรมดา"
+    },
+    {
+      "index": 34,
+      "start_seconds": 67.1,
+      "end_seconds": 68.1,
+      "text": "คุณเค"
+    },
+    {
+      "index": 35,
+      "start_seconds": 68.34,
+      "end_seconds": 69.1,
+      "text": "ไอ้มอนตัวนี้"
+    },
+    {
+      "index": 36,
+      "start_seconds": 69.1,
+      "end_seconds": 69.9,
+      "text": "ไอ้บอสตัวนี้มันจับได้"
+    },
+    {
+      "index": 37,
+      "start_seconds": 72.12,
+      "end_seconds": 73.88,
+      "text": "นี่คือหนึ่งในเหตุผลที่"
+    },
+    {
+      "index": 38,
+      "start_seconds": 73.88,
+      "end_seconds": 75.1,
+      "text": "ผมต้องใช้ EX สองที"
+    },
+    {
+      "index": 39,
+      "start_seconds": 75.1,
+      "end_seconds": 76.6,
+      "text": "ไงแหละ เพราะมัน i-frame"
+    }
+  ],
+  "low_confidence_source_ranges_seconds": [
+    [
+      6570.25,
+      6571.45
+    ],
+    [
+      6574.92,
+      6577.72
+    ],
+    [
+      6584.48,
+      6587.1
+    ],
+    [
+      6587.1,
+      6599.55
+    ],
+    [
+      6608.28,
+      6614.22
+    ],
+    [
+      6616.55,
+      6625.5
+    ],
+    [
+      6632.82,
+      6640.0
+    ]
+  ],
+  "notes": [
+    "คำในช่วงที่ระบุมีผล ASR ต่างกันหรือความเชื่อต่ำ; ต้องตรวจฟังซ้ำก่อนเผยแพร่เพื่อยืนยันคำเฉพาะและประโยคที่ไม่ชัด",
+    "ไฟล์ SRT ใช้ markup มาตรฐานสำหรับ Mitr/ตัวหนา/สีขาว; Resolve API ไม่เปิดให้ตั้ง stroke และตำแหน่ง track ผ่านสคริปต์",
+    "เวลาเป็น offset เทียบกับต้นคลิปที่ 6570 วินาที; ไม่มีการเขียนหรือแปลงไฟล์วิดีโอต้นฉบับ"
+  ]
+}

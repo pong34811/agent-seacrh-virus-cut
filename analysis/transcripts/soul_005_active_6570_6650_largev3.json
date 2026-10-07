@@ -1,0 +1,1655 @@
+{
+  "source": "G:\\My Drive\\Projects\\Katy404\\2026-09-29\\【🔴 LIVE】Soul Walker - 005 ｜ 26⧸09⧸2026 ｜   ​@LaffeyNilvalen.mp4",
+  "source_range_seconds": [
+    6570.0,
+    6650.0
+  ],
+  "model": "faster-whisper-large-v3",
+  "language": "th",
+  "segments": [
+    {
+      "start": 6570.0,
+      "end": 6571.36,
+      "text": "แกไปเครื่องส่องเวย์ให้ฉันซะ",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.019,
+      "words": [
+        {
+          "start": 6570.0,
+          "end": 6570.32,
+          "word": "แ",
+          "probability": 0.371
+        },
+        {
+          "start": 6570.32,
+          "end": 6570.42,
+          "word": "ก",
+          "probability": 0.919
+        },
+        {
+          "start": 6570.42,
+          "end": 6570.5,
+          "word": "ไป",
+          "probability": 0.674
+        },
+        {
+          "start": 6570.5,
+          "end": 6570.62,
+          "word": "เค",
+          "probability": 0.928
+        },
+        {
+          "start": 6570.62,
+          "end": 6570.66,
+          "word": "ร",
+          "probability": 0.924
+        },
+        {
+          "start": 6570.66,
+          "end": 6570.68,
+          "word": "ื่",
+          "probability": 0.982
+        },
+        {
+          "start": 6570.68,
+          "end": 6570.68,
+          "word": "อง",
+          "probability": 0.999
+        },
+        {
+          "start": 6570.68,
+          "end": 6570.78,
+          "word": "ส",
+          "probability": 0.857
+        },
+        {
+          "start": 6570.78,
+          "end": 6570.84,
+          "word": "่",
+          "probability": 0.508
+        },
+        {
+          "start": 6570.84,
+          "end": 6570.84,
+          "word": "อง",
+          "probability": 0.952
+        },
+        {
+          "start": 6570.84,
+          "end": 6570.94,
+          "word": "เว",
+          "probability": 0.803
+        },
+        {
+          "start": 6570.94,
+          "end": 6571.0,
+          "word": "ย",
+          "probability": 0.495
+        },
+        {
+          "start": 6571.0,
+          "end": 6571.02,
+          "word": "์",
+          "probability": 0.916
+        },
+        {
+          "start": 6571.02,
+          "end": 6571.1,
+          "word": "ให",
+          "probability": 0.542
+        },
+        {
+          "start": 6571.1,
+          "end": 6571.1,
+          "word": "้",
+          "probability": 0.997
+        },
+        {
+          "start": 6571.1,
+          "end": 6571.12,
+          "word": "ฉ",
+          "probability": 0.929
+        },
+        {
+          "start": 6571.12,
+          "end": 6571.16,
+          "word": "ั",
+          "probability": 0.999
+        },
+        {
+          "start": 6571.16,
+          "end": 6571.16,
+          "word": "น",
+          "probability": 0.994
+        },
+        {
+          "start": 6571.16,
+          "end": 6571.34,
+          "word": "ซ",
+          "probability": 0.745
+        },
+        {
+          "start": 6571.34,
+          "end": 6571.36,
+          "word": "ะ",
+          "probability": 0.922
+        }
+      ]
+    },
+    {
+      "start": 6574.88,
+      "end": 6577.62,
+      "text": "โอ้ เสียใจว่ะ คนดูผมขอโทษนะ ถ้าผมเข้าการซีนไปอะ",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.019,
+      "words": [
+        {
+          "start": 6574.88,
+          "end": 6575.04,
+          "word": "โ",
+          "probability": 0.802
+        },
+        {
+          "start": 6575.04,
+          "end": 6575.2,
+          "word": "อ",
+          "probability": 0.69
+        },
+        {
+          "start": 6575.2,
+          "end": 6575.22,
+          "word": "้",
+          "probability": 0.649
+        },
+        {
+          "start": 6575.22,
+          "end": 6575.36,
+          "word": " เส",
+          "probability": 0.511
+        },
+        {
+          "start": 6575.36,
+          "end": 6575.42,
+          "word": "ี",
+          "probability": 0.966
+        },
+        {
+          "start": 6575.42,
+          "end": 6575.46,
+          "word": "ย",
+          "probability": 0.998
+        },
+        {
+          "start": 6575.46,
+          "end": 6575.46,
+          "word": "ใ",
+          "probability": 0.988
+        },
+        {
+          "start": 6575.46,
+          "end": 6575.6,
+          "word": "จ",
+          "probability": 1.0
+        },
+        {
+          "start": 6575.6,
+          "end": 6575.72,
+          "word": "ว",
+          "probability": 0.818
+        },
+        {
+          "start": 6575.72,
+          "end": 6575.76,
+          "word": "่",
+          "probability": 0.61
+        },
+        {
+          "start": 6575.76,
+          "end": 6575.84,
+          "word": "ะ",
+          "probability": 0.923
+        },
+        {
+          "start": 6575.84,
+          "end": 6576.02,
+          "word": " คน",
+          "probability": 0.978
+        },
+        {
+          "start": 6576.02,
+          "end": 6576.08,
+          "word": "ด",
+          "probability": 0.996
+        },
+        {
+          "start": 6576.08,
+          "end": 6576.18,
+          "word": "ู",
+          "probability": 0.996
+        },
+        {
+          "start": 6576.18,
+          "end": 6576.28,
+          "word": "ผม",
+          "probability": 0.82
+        },
+        {
+          "start": 6576.28,
+          "end": 6576.42,
+          "word": "ข",
+          "probability": 0.961
+        },
+        {
+          "start": 6576.42,
+          "end": 6576.48,
+          "word": "อ",
+          "probability": 0.999
+        },
+        {
+          "start": 6576.48,
+          "end": 6576.56,
+          "word": "โ",
+          "probability": 0.997
+        },
+        {
+          "start": 6576.56,
+          "end": 6576.6,
+          "word": "ท",
+          "probability": 0.998
+        },
+        {
+          "start": 6576.6,
+          "end": 6576.64,
+          "word": "ษ",
+          "probability": 0.999
+        },
+        {
+          "start": 6576.64,
+          "end": 6576.72,
+          "word": "นะ",
+          "probability": 0.686
+        },
+        {
+          "start": 6576.72,
+          "end": 6576.78,
+          "word": " ถ",
+          "probability": 0.436
+        },
+        {
+          "start": 6576.78,
+          "end": 6576.78,
+          "word": "้",
+          "probability": 0.982
+        },
+        {
+          "start": 6576.78,
+          "end": 6576.78,
+          "word": "า",
+          "probability": 0.99
+        },
+        {
+          "start": 6576.78,
+          "end": 6576.86,
+          "word": "ผม",
+          "probability": 0.888
+        },
+        {
+          "start": 6576.86,
+          "end": 6577.04,
+          "word": "เข",
+          "probability": 0.183
+        },
+        {
+          "start": 6577.04,
+          "end": 6577.04,
+          "word": "้",
+          "probability": 0.998
+        },
+        {
+          "start": 6577.04,
+          "end": 6577.06,
+          "word": "าก",
+          "probability": 0.102
+        },
+        {
+          "start": 6577.06,
+          "end": 6577.1,
+          "word": "าร",
+          "probability": 0.269
+        },
+        {
+          "start": 6577.1,
+          "end": 6577.22,
+          "word": "ซ",
+          "probability": 0.399
+        },
+        {
+          "start": 6577.22,
+          "end": 6577.28,
+          "word": "ี",
+          "probability": 0.986
+        },
+        {
+          "start": 6577.28,
+          "end": 6577.32,
+          "word": "น",
+          "probability": 0.874
+        },
+        {
+          "start": 6577.32,
+          "end": 6577.46,
+          "word": "ไป",
+          "probability": 0.947
+        },
+        {
+          "start": 6577.46,
+          "end": 6577.62,
+          "word": "อะ",
+          "probability": 0.283
+        }
+      ]
+    },
+    {
+      "start": 6578.2,
+      "end": 6579.36,
+      "text": "ผมจะ Set Hotkey ไม่ใช่อะไร",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.019,
+      "words": [
+        {
+          "start": 6578.2,
+          "end": 6578.36,
+          "word": "ผม",
+          "probability": 0.735
+        },
+        {
+          "start": 6578.36,
+          "end": 6578.52,
+          "word": "จะ",
+          "probability": 0.991
+        },
+        {
+          "start": 6578.52,
+          "end": 6578.66,
+          "word": " Set",
+          "probability": 0.037
+        },
+        {
+          "start": 6578.66,
+          "end": 6578.82,
+          "word": " Hot",
+          "probability": 0.634
+        },
+        {
+          "start": 6578.82,
+          "end": 6578.96,
+          "word": "key",
+          "probability": 0.704
+        },
+        {
+          "start": 6579.06,
+          "end": 6579.12,
+          "word": " ไม",
+          "probability": 0.925
+        },
+        {
+          "start": 6579.12,
+          "end": 6579.16,
+          "word": "่",
+          "probability": 0.998
+        },
+        {
+          "start": 6579.16,
+          "end": 6579.24,
+          "word": "ใช",
+          "probability": 0.995
+        },
+        {
+          "start": 6579.24,
+          "end": 6579.24,
+          "word": "่",
+          "probability": 1.0
+        },
+        {
+          "start": 6579.24,
+          "end": 6579.36,
+          "word": "อะไร",
+          "probability": 0.867
+        }
+      ]
+    },
+    {
+      "start": 6581.56,
+      "end": 6582.58,
+      "text": "เปิด EX แม่งเลย",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.019,
+      "words": [
+        {
+          "start": 6581.56,
+          "end": 6581.72,
+          "word": "เป",
+          "probability": 0.839
+        },
+        {
+          "start": 6581.72,
+          "end": 6581.88,
+          "word": "ิ",
+          "probability": 0.997
+        },
+        {
+          "start": 6581.88,
+          "end": 6581.92,
+          "word": "ด",
+          "probability": 1.0
+        },
+        {
+          "start": 6581.92,
+          "end": 6582.08,
+          "word": " EX",
+          "probability": 0.323
+        },
+        {
+          "start": 6582.22,
+          "end": 6582.36,
+          "word": " แ",
+          "probability": 0.984
+        },
+        {
+          "start": 6582.36,
+          "end": 6582.36,
+          "word": "ม",
+          "probability": 0.987
+        },
+        {
+          "start": 6582.36,
+          "end": 6582.42,
+          "word": "่",
+          "probability": 0.99
+        },
+        {
+          "start": 6582.42,
+          "end": 6582.44,
+          "word": "ง",
+          "probability": 0.995
+        },
+        {
+          "start": 6582.44,
+          "end": 6582.58,
+          "word": "เลย",
+          "probability": 0.958
+        }
+      ]
+    },
+    {
+      "start": 6584.4,
+      "end": 6587.0,
+      "text": "ไอ้เหี้ย เอ้ย แล้ว Security Tank ไม่ได้ เสิร์ชเป็น Security Armored",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.019,
+      "words": [
+        {
+          "start": 6584.4,
+          "end": 6584.56,
+          "word": "ไ",
+          "probability": 0.917
+        },
+        {
+          "start": 6584.56,
+          "end": 6584.72,
+          "word": "อ",
+          "probability": 1.0
+        },
+        {
+          "start": 6584.72,
+          "end": 6584.72,
+          "word": "้",
+          "probability": 0.727
+        },
+        {
+          "start": 6584.72,
+          "end": 6584.8,
+          "word": "เห",
+          "probability": 0.253
+        },
+        {
+          "start": 6584.8,
+          "end": 6584.88,
+          "word": "ี้",
+          "probability": 0.952
+        },
+        {
+          "start": 6584.88,
+          "end": 6584.9,
+          "word": "ย",
+          "probability": 0.994
+        },
+        {
+          "start": 6585.02,
+          "end": 6585.06,
+          "word": " เอ",
+          "probability": 0.732
+        },
+        {
+          "start": 6585.06,
+          "end": 6585.14,
+          "word": "้",
+          "probability": 0.514
+        },
+        {
+          "start": 6585.14,
+          "end": 6585.2,
+          "word": "ย",
+          "probability": 0.971
+        },
+        {
+          "start": 6585.26,
+          "end": 6585.34,
+          "word": " แล",
+          "probability": 0.264
+        },
+        {
+          "start": 6585.34,
+          "end": 6585.36,
+          "word": "้",
+          "probability": 0.996
+        },
+        {
+          "start": 6585.36,
+          "end": 6585.36,
+          "word": "ว",
+          "probability": 0.993
+        },
+        {
+          "start": 6585.36,
+          "end": 6585.58,
+          "word": " Security",
+          "probability": 0.601
+        },
+        {
+          "start": 6585.58,
+          "end": 6585.86,
+          "word": " Tank",
+          "probability": 0.173
+        },
+        {
+          "start": 6585.94,
+          "end": 6586.0,
+          "word": " ไม",
+          "probability": 0.988
+        },
+        {
+          "start": 6586.0,
+          "end": 6586.04,
+          "word": "่",
+          "probability": 1.0
+        },
+        {
+          "start": 6586.04,
+          "end": 6586.06,
+          "word": "ได",
+          "probability": 0.999
+        },
+        {
+          "start": 6586.06,
+          "end": 6586.14,
+          "word": "้",
+          "probability": 0.999
+        },
+        {
+          "start": 6586.18,
+          "end": 6586.22,
+          "word": " เส",
+          "probability": 0.148
+        },
+        {
+          "start": 6586.22,
+          "end": 6586.28,
+          "word": "ิ",
+          "probability": 0.843
+        },
+        {
+          "start": 6586.28,
+          "end": 6586.28,
+          "word": "ร",
+          "probability": 0.988
+        },
+        {
+          "start": 6586.28,
+          "end": 6586.3,
+          "word": "์",
+          "probability": 0.996
+        },
+        {
+          "start": 6586.3,
+          "end": 6586.3,
+          "word": "ช",
+          "probability": 0.365
+        },
+        {
+          "start": 6586.3,
+          "end": 6586.4,
+          "word": "เป",
+          "probability": 0.982
+        },
+        {
+          "start": 6586.4,
+          "end": 6586.4,
+          "word": "็",
+          "probability": 0.991
+        },
+        {
+          "start": 6586.4,
+          "end": 6586.42,
+          "word": "น",
+          "probability": 0.999
+        },
+        {
+          "start": 6586.42,
+          "end": 6586.7,
+          "word": " Security",
+          "probability": 0.942
+        },
+        {
+          "start": 6586.7,
+          "end": 6586.9,
+          "word": " Arm",
+          "probability": 0.219
+        },
+        {
+          "start": 6586.9,
+          "end": 6587.0,
+          "word": "ored",
+          "probability": 0.363
+        }
+      ]
+    },
+    {
+      "start": 6599.66,
+      "end": 6602.48,
+      "text": "อัด Key มาเยอะมากอะไอ้เหี้ย",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.019,
+      "words": [
+        {
+          "start": 6599.66,
+          "end": 6599.82,
+          "word": "อ",
+          "probability": 0.524
+        },
+        {
+          "start": 6599.82,
+          "end": 6599.98,
+          "word": "ั",
+          "probability": 0.934
+        },
+        {
+          "start": 6599.98,
+          "end": 6601.34,
+          "word": "ด",
+          "probability": 0.967
+        },
+        {
+          "start": 6601.34,
+          "end": 6601.48,
+          "word": " Key",
+          "probability": 0.375
+        },
+        {
+          "start": 6601.6,
+          "end": 6601.66,
+          "word": " มา",
+          "probability": 0.982
+        },
+        {
+          "start": 6601.66,
+          "end": 6601.8,
+          "word": "เย",
+          "probability": 0.998
+        },
+        {
+          "start": 6601.8,
+          "end": 6601.82,
+          "word": "อะ",
+          "probability": 1.0
+        },
+        {
+          "start": 6601.82,
+          "end": 6601.94,
+          "word": "มา",
+          "probability": 0.995
+        },
+        {
+          "start": 6601.94,
+          "end": 6602.06,
+          "word": "ก",
+          "probability": 1.0
+        },
+        {
+          "start": 6602.06,
+          "end": 6602.18,
+          "word": "อะ",
+          "probability": 0.699
+        },
+        {
+          "start": 6602.18,
+          "end": 6602.28,
+          "word": "ไ",
+          "probability": 0.792
+        },
+        {
+          "start": 6602.28,
+          "end": 6602.28,
+          "word": "อ",
+          "probability": 1.0
+        },
+        {
+          "start": 6602.28,
+          "end": 6602.3,
+          "word": "้",
+          "probability": 0.995
+        },
+        {
+          "start": 6602.3,
+          "end": 6602.38,
+          "word": "เห",
+          "probability": 0.893
+        },
+        {
+          "start": 6602.38,
+          "end": 6602.44,
+          "word": "ี้",
+          "probability": 0.991
+        },
+        {
+          "start": 6602.44,
+          "end": 6602.48,
+          "word": "ย",
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 6604.08,
+      "end": 6606.2,
+      "text": "ถ้าแพ้อีก ก็แดกวิตามินซีเหมือนเดิมอะ",
+      "avg_logprob": -0.29,
+      "no_speech_prob": 0.019,
+      "words": [
+        {
+          "start": 6604.08,
+          "end": 6604.24,
+          "word": "ถ",
+          "probability": 0.876
+        },
+        {
+          "start": 6604.24,
+          "end": 6604.4,
+          "word": "้",
+          "probability": 0.999
+        },
+        {
+          "start": 6604.4,
+          "end": 6604.62,
+          "word": "า",
+          "probability": 0.999
+        },
+        {
+          "start": 6604.62,
+          "end": 6604.7,
+          "word": "แ",
+          "probability": 0.566
+        },
+        {
+          "start": 6604.7,
+          "end": 6604.8,
+          "word": "พ",
+          "probability": 0.994
+        },
+        {
+          "start": 6604.8,
+          "end": 6604.86,
+          "word": "้",
+          "probability": 1.0
+        },
+        {
+          "start": 6604.86,
+          "end": 6604.9,
+          "word": "อ",
+          "probability": 0.982
+        },
+        {
+          "start": 6604.9,
+          "end": 6604.96,
+          "word": "ี",
+          "probability": 1.0
+        },
+        {
+          "start": 6604.96,
+          "end": 6604.96,
+          "word": "ก",
+          "probability": 1.0
+        },
+        {
+          "start": 6604.96,
+          "end": 6605.04,
+          "word": " ก",
+          "probability": 0.226
+        },
+        {
+          "start": 6605.04,
+          "end": 6605.08,
+          "word": "็",
+          "probability": 1.0
+        },
+        {
+          "start": 6605.08,
+          "end": 6605.16,
+          "word": "แ",
+          "probability": 0.651
+        },
+        {
+          "start": 6605.16,
+          "end": 6605.2,
+          "word": "ด",
+          "probability": 0.962
+        },
+        {
+          "start": 6605.2,
+          "end": 6605.2,
+          "word": "ก",
+          "probability": 0.753
+        },
+        {
+          "start": 6605.2,
+          "end": 6605.36,
+          "word": "ว",
+          "probability": 0.611
+        },
+        {
+          "start": 6605.36,
+          "end": 6605.36,
+          "word": "ิ",
+          "probability": 0.998
+        },
+        {
+          "start": 6605.36,
+          "end": 6605.36,
+          "word": "ต",
+          "probability": 0.942
+        },
+        {
+          "start": 6605.36,
+          "end": 6605.44,
+          "word": "าม",
+          "probability": 0.984
+        },
+        {
+          "start": 6605.44,
+          "end": 6605.58,
+          "word": "ิ",
+          "probability": 0.964
+        },
+        {
+          "start": 6605.58,
+          "end": 6605.58,
+          "word": "น",
+          "probability": 0.988
+        },
+        {
+          "start": 6605.58,
+          "end": 6605.76,
+          "word": "ซ",
+          "probability": 0.917
+        },
+        {
+          "start": 6605.76,
+          "end": 6605.76,
+          "word": "ี",
+          "probability": 0.988
+        },
+        {
+          "start": 6605.76,
+          "end": 6605.88,
+          "word": "เห",
+          "probability": 0.965
+        },
+        {
+          "start": 6605.88,
+          "end": 6605.92,
+          "word": "ม",
+          "probability": 1.0
+        },
+        {
+          "start": 6605.92,
+          "end": 6605.92,
+          "word": "ื",
+          "probability": 0.999
+        },
+        {
+          "start": 6605.92,
+          "end": 6605.92,
+          "word": "อน",
+          "probability": 1.0
+        },
+        {
+          "start": 6605.92,
+          "end": 6606.02,
+          "word": "เด",
+          "probability": 0.999
+        },
+        {
+          "start": 6606.02,
+          "end": 6606.08,
+          "word": "ิ",
+          "probability": 0.999
+        },
+        {
+          "start": 6606.08,
+          "end": 6606.12,
+          "word": "ม",
+          "probability": 1.0
+        },
+        {
+          "start": 6606.12,
+          "end": 6606.2,
+          "word": "อะ",
+          "probability": 0.918
+        }
+      ]
+    },
+    {
+      "start": 6608.28,
+      "end": 6638.38,
+      "text": "บอกเลยว่าเล่นจนซีน อาเหี้ยแคงบอกเลยอยู่ทศนหะ",
+      "avg_logprob": -1.586,
+      "no_speech_prob": 0.328,
+      "words": [
+        {
+          "start": 6608.28,
+          "end": 6608.52,
+          "word": "บ",
+          "probability": 0.145
+        },
+        {
+          "start": 6608.52,
+          "end": 6608.76,
+          "word": "อก",
+          "probability": 0.984
+        },
+        {
+          "start": 6608.76,
+          "end": 6608.88,
+          "word": "เลย",
+          "probability": 0.95
+        },
+        {
+          "start": 6608.88,
+          "end": 6608.96,
+          "word": "ว",
+          "probability": 0.212
+        },
+        {
+          "start": 6608.96,
+          "end": 6609.08,
+          "word": "่",
+          "probability": 0.987
+        },
+        {
+          "start": 6609.08,
+          "end": 6609.08,
+          "word": "า",
+          "probability": 0.992
+        },
+        {
+          "start": 6609.08,
+          "end": 6609.18,
+          "word": "เล",
+          "probability": 0.792
+        },
+        {
+          "start": 6609.18,
+          "end": 6609.24,
+          "word": "่",
+          "probability": 0.987
+        },
+        {
+          "start": 6609.24,
+          "end": 6609.24,
+          "word": "น",
+          "probability": 0.999
+        },
+        {
+          "start": 6609.24,
+          "end": 6609.32,
+          "word": "จ",
+          "probability": 0.819
+        },
+        {
+          "start": 6609.32,
+          "end": 6609.36,
+          "word": "น",
+          "probability": 0.994
+        },
+        {
+          "start": 6609.36,
+          "end": 6609.58,
+          "word": "ซ",
+          "probability": 0.741
+        },
+        {
+          "start": 6609.58,
+          "end": 6609.58,
+          "word": "ี",
+          "probability": 0.729
+        },
+        {
+          "start": 6609.58,
+          "end": 6609.72,
+          "word": "น",
+          "probability": 0.524
+        },
+        {
+          "start": 6609.72,
+          "end": 6609.84,
+          "word": " อ",
+          "probability": 0.172
+        },
+        {
+          "start": 6609.84,
+          "end": 6609.9,
+          "word": "า",
+          "probability": 0.128
+        },
+        {
+          "start": 6609.9,
+          "end": 6609.96,
+          "word": "เห",
+          "probability": 0.299
+        },
+        {
+          "start": 6609.96,
+          "end": 6610.02,
+          "word": "ี้",
+          "probability": 0.471
+        },
+        {
+          "start": 6610.02,
+          "end": 6610.06,
+          "word": "ย",
+          "probability": 0.994
+        },
+        {
+          "start": 6610.06,
+          "end": 6610.12,
+          "word": "แ",
+          "probability": 0.048
+        },
+        {
+          "start": 6610.12,
+          "end": 6610.18,
+          "word": "ค",
+          "probability": 0.69
+        },
+        {
+          "start": 6610.18,
+          "end": 6610.18,
+          "word": "ง",
+          "probability": 0.013
+        },
+        {
+          "start": 6610.18,
+          "end": 6610.3,
+          "word": "บ",
+          "probability": 0.934
+        },
+        {
+          "start": 6610.3,
+          "end": 6610.44,
+          "word": "อก",
+          "probability": 0.989
+        },
+        {
+          "start": 6610.44,
+          "end": 6610.6,
+          "word": "เลย",
+          "probability": 0.968
+        },
+        {
+          "start": 6610.6,
+          "end": 6611.6,
+          "word": "อย",
+          "probability": 0.449
+        },
+        {
+          "start": 6611.6,
+          "end": 6612.04,
+          "word": "ู่",
+          "probability": 0.989
+        },
+        {
+          "start": 6612.04,
+          "end": 6612.14,
+          "word": "ท",
+          "probability": 0.015
+        },
+        {
+          "start": 6612.14,
+          "end": 6625.8,
+          "word": "ศ",
+          "probability": 0.376
+        },
+        {
+          "start": 6633.36,
+          "end": 6633.36,
+          "word": "น",
+          "probability": 0.167
+        },
+        {
+          "start": 6633.36,
+          "end": 6633.58,
+          "word": "ห",
+          "probability": 0.047
+        },
+        {
+          "start": 6633.58,
+          "end": 6638.38,
+          "word": "ะ",
+          "probability": 0.047
+        }
+      ]
+    },
+    {
+      "start": 6638.38,
+      "end": 6639.82,
+      "text": "ไอมอนตัวนี้ ไอบ๊อตตัวนี้มันจับร้าย",
+      "avg_logprob": -0.315,
+      "no_speech_prob": 0.235,
+      "words": [
+        {
+          "start": 6638.38,
+          "end": 6638.46,
+          "word": "ไ",
+          "probability": 0.481
+        },
+        {
+          "start": 6638.46,
+          "end": 6638.48,
+          "word": "อ",
+          "probability": 0.944
+        },
+        {
+          "start": 6638.48,
+          "end": 6638.5,
+          "word": "ม",
+          "probability": 0.443
+        },
+        {
+          "start": 6638.5,
+          "end": 6638.56,
+          "word": "อน",
+          "probability": 0.795
+        },
+        {
+          "start": 6638.56,
+          "end": 6638.66,
+          "word": "ต",
+          "probability": 0.667
+        },
+        {
+          "start": 6638.66,
+          "end": 6638.72,
+          "word": "ั",
+          "probability": 0.792
+        },
+        {
+          "start": 6638.72,
+          "end": 6638.74,
+          "word": "ว",
+          "probability": 0.991
+        },
+        {
+          "start": 6638.74,
+          "end": 6638.78,
+          "word": "น",
+          "probability": 0.99
+        },
+        {
+          "start": 6638.78,
+          "end": 6638.82,
+          "word": "ี้",
+          "probability": 0.996
+        },
+        {
+          "start": 6638.88,
+          "end": 6639.08,
+          "word": " ไ",
+          "probability": 0.88
+        },
+        {
+          "start": 6639.08,
+          "end": 6639.12,
+          "word": "อ",
+          "probability": 0.969
+        },
+        {
+          "start": 6639.12,
+          "end": 6639.14,
+          "word": "บ",
+          "probability": 0.979
+        },
+        {
+          "start": 6639.14,
+          "end": 6639.2,
+          "word": "๊",
+          "probability": 0.151
+        },
+        {
+          "start": 6639.2,
+          "end": 6639.22,
+          "word": "อ",
+          "probability": 0.918
+        },
+        {
+          "start": 6639.22,
+          "end": 6639.22,
+          "word": "ต",
+          "probability": 0.716
+        },
+        {
+          "start": 6639.22,
+          "end": 6639.32,
+          "word": "ต",
+          "probability": 0.975
+        },
+        {
+          "start": 6639.32,
+          "end": 6639.36,
+          "word": "ั",
+          "probability": 0.972
+        },
+        {
+          "start": 6639.36,
+          "end": 6639.36,
+          "word": "ว",
+          "probability": 0.998
+        },
+        {
+          "start": 6639.36,
+          "end": 6639.36,
+          "word": "น",
+          "probability": 0.999
+        },
+        {
+          "start": 6639.36,
+          "end": 6639.42,
+          "word": "ี้",
+          "probability": 0.999
+        },
+        {
+          "start": 6639.42,
+          "end": 6639.44,
+          "word": "ม",
+          "probability": 0.607
+        },
+        {
+          "start": 6639.44,
+          "end": 6639.5,
+          "word": "ั",
+          "probability": 0.982
+        },
+        {
+          "start": 6639.5,
+          "end": 6639.5,
+          "word": "น",
+          "probability": 0.995
+        },
+        {
+          "start": 6639.5,
+          "end": 6639.58,
+          "word": "จ",
+          "probability": 0.812
+        },
+        {
+          "start": 6639.58,
+          "end": 6639.58,
+          "word": "ั",
+          "probability": 0.998
+        },
+        {
+          "start": 6639.58,
+          "end": 6639.64,
+          "word": "บ",
+          "probability": 0.998
+        },
+        {
+          "start": 6639.64,
+          "end": 6639.72,
+          "word": "ร",
+          "probability": 0.321
+        },
+        {
+          "start": 6639.72,
+          "end": 6639.78,
+          "word": "้",
+          "probability": 0.812
+        },
+        {
+          "start": 6639.78,
+          "end": 6639.82,
+          "word": "าย",
+          "probability": 0.941
+        }
+      ]
+    },
+    {
+      "start": 6642.08,
+      "end": 6643.78,
+      "text": "นี่คือหนึ่งในเหตุผลที่",
+      "avg_logprob": -0.315,
+      "no_speech_prob": 0.235,
+      "words": [
+        {
+          "start": 6642.08,
+          "end": 6642.2,
+          "word": "น",
+          "probability": 0.808
+        },
+        {
+          "start": 6642.2,
+          "end": 6642.32,
+          "word": "ี่",
+          "probability": 0.891
+        },
+        {
+          "start": 6642.32,
+          "end": 6642.36,
+          "word": "ค",
+          "probability": 0.723
+        },
+        {
+          "start": 6642.36,
+          "end": 6642.6,
+          "word": "ื",
+          "probability": 0.999
+        },
+        {
+          "start": 6642.6,
+          "end": 6642.62,
+          "word": "อ",
+          "probability": 0.909
+        },
+        {
+          "start": 6642.62,
+          "end": 6642.72,
+          "word": "หน",
+          "probability": 0.781
+        },
+        {
+          "start": 6642.72,
+          "end": 6642.76,
+          "word": "ึ",
+          "probability": 1.0
+        },
+        {
+          "start": 6642.76,
+          "end": 6642.8,
+          "word": "่",
+          "probability": 1.0
+        },
+        {
+          "start": 6642.8,
+          "end": 6642.8,
+          "word": "ง",
+          "probability": 1.0
+        },
+        {
+          "start": 6642.8,
+          "end": 6642.9,
+          "word": "ใ",
+          "probability": 0.936
+        },
+        {
+          "start": 6642.9,
+          "end": 6642.98,
+          "word": "น",
+          "probability": 0.998
+        },
+        {
+          "start": 6642.98,
+          "end": 6643.06,
+          "word": "เห",
+          "probability": 0.979
+        },
+        {
+          "start": 6643.06,
+          "end": 6643.16,
+          "word": "ต",
+          "probability": 0.998
+        },
+        {
+          "start": 6643.16,
+          "end": 6643.22,
+          "word": "ุ",
+          "probability": 0.995
+        },
+        {
+          "start": 6643.22,
+          "end": 6643.32,
+          "word": "ผ",
+          "probability": 0.997
+        },
+        {
+          "start": 6643.32,
+          "end": 6643.48,
+          "word": "ล",
+          "probability": 0.993
+        },
+        {
+          "start": 6643.48,
+          "end": 6643.52,
+          "word": "ท",
+          "probability": 0.949
+        },
+        {
+          "start": 6643.52,
+          "end": 6643.78,
+          "word": "ี่",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "start": 6644.36,
+      "end": 6646.0,
+      "text": "ผมต้องใช้ EX2P อย่างเงี้ยแหละ",
+      "avg_logprob": -0.315,
+      "no_speech_prob": 0.235,
+      "words": [
+        {
+          "start": 6644.36,
+          "end": 6644.48,
+          "word": "ผม",
+          "probability": 0.656
+        },
+        {
+          "start": 6644.48,
+          "end": 6644.6,
+          "word": "ต",
+          "probability": 0.98
+        },
+        {
+          "start": 6644.6,
+          "end": 6644.74,
+          "word": "้",
+          "probability": 1.0
+        },
+        {
+          "start": 6644.74,
+          "end": 6644.82,
+          "word": "อง",
+          "probability": 1.0
+        },
+        {
+          "start": 6644.82,
+          "end": 6644.88,
+          "word": "ใช",
+          "probability": 0.987
+        },
+        {
+          "start": 6644.88,
+          "end": 6645.0,
+          "word": "้",
+          "probability": 0.986
+        },
+        {
+          "start": 6645.0,
+          "end": 6645.26,
+          "word": " EX",
+          "probability": 0.366
+        },
+        {
+          "start": 6645.26,
+          "end": 6645.4,
+          "word": "2",
+          "probability": 0.534
+        },
+        {
+          "start": 6645.4,
+          "end": 6645.66,
+          "word": "P",
+          "probability": 0.553
+        },
+        {
+          "start": 6645.72,
+          "end": 6645.78,
+          "word": " อย",
+          "probability": 0.307
+        },
+        {
+          "start": 6645.78,
+          "end": 6645.78,
+          "word": "่",
+          "probability": 0.999
+        },
+        {
+          "start": 6645.78,
+          "end": 6645.82,
+          "word": "าง",
+          "probability": 1.0
+        },
+        {
+          "start": 6645.82,
+          "end": 6645.86,
+          "word": "เง",
+          "probability": 0.653
+        },
+        {
+          "start": 6645.86,
+          "end": 6645.9,
+          "word": "ี้",
+          "probability": 0.692
+        },
+        {
+          "start": 6645.9,
+          "end": 6645.9,
+          "word": "ย",
+          "probability": 1.0
+        },
+        {
+          "start": 6645.9,
+          "end": 6645.94,
+          "word": "แ",
+          "probability": 0.333
+        },
+        {
+          "start": 6645.94,
+          "end": 6645.94,
+          "word": "ห",
+          "probability": 0.995
+        },
+        {
+          "start": 6645.94,
+          "end": 6645.94,
+          "word": "ล",
+          "probability": 0.998
+        },
+        {
+          "start": 6645.94,
+          "end": 6646.0,
+          "word": "ะ",
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 6646.0,
+      "end": 6646.62,
+      "text": "เพราะมัน iFrame",
+      "avg_logprob": -0.315,
+      "no_speech_prob": 0.235,
+      "words": [
+        {
+          "start": 6646.0,
+          "end": 6646.08,
+          "word": "เพ",
+          "probability": 0.589
+        },
+        {
+          "start": 6646.08,
+          "end": 6646.12,
+          "word": "ร",
+          "probability": 0.998
+        },
+        {
+          "start": 6646.12,
+          "end": 6646.14,
+          "word": "า",
+          "probability": 1.0
+        },
+        {
+          "start": 6646.14,
+          "end": 6646.16,
+          "word": "ะ",
+          "probability": 1.0
+        },
+        {
+          "start": 6646.16,
+          "end": 6646.18,
+          "word": "ม",
+          "probability": 0.926
+        },
+        {
+          "start": 6646.18,
+          "end": 6646.24,
+          "word": "ั",
+          "probability": 1.0
+        },
+        {
+          "start": 6646.24,
+          "end": 6646.28,
+          "word": "น",
+          "probability": 0.999
+        },
+        {
+          "start": 6646.28,
+          "end": 6646.34,
+          "word": " i",
+          "probability": 0.432
+        },
+        {
+          "start": 6646.34,
+          "end": 6646.42,
+          "word": "Fr",
+          "probability": 0.323
+        },
+        {
+          "start": 6646.42,
+          "end": 6646.62,
+          "word": "ame",
+          "probability": 0.974
+        }
+      ]
+    }
+  ]
+}

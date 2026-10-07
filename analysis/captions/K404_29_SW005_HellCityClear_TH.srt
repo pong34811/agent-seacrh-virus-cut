@@ -1,0 +1,157 @@
+﻿1
+00:00:00,250 --> 00:00:01,450
+<font face="Mitr" color="#FFFFFF"><b>แกไปเครื่องสองเว้ย
+ให้ฉันซัก</b></font>
+
+2
+00:00:04,920 --> 00:00:05,840
+<font face="Mitr" color="#FFFFFF"><b>โอ้โห เสียใจว่ะ</b></font>
+
+3
+00:00:05,920 --> 00:00:06,720
+<font face="Mitr" color="#FFFFFF"><b>คนดู ผมขอโทษนะ</b></font>
+
+4
+00:00:06,740 --> 00:00:07,720
+<font face="Mitr" color="#FFFFFF"><b>ถ้าผมข้ามคัทซีนไปอ่ะ</b></font>
+
+5
+00:00:08,220 --> 00:00:09,420
+<font face="Mitr" color="#FFFFFF"><b>ผมจะเซ็ต Hotkey
+ไม่ใช่อะไร</b></font>
+
+6
+00:00:11,560 --> 00:00:12,700
+<font face="Mitr" color="#FFFFFF"><b>เปิด EX แม่งเลย</b></font>
+
+7
+00:00:14,480 --> 00:00:15,280
+<font face="Mitr" color="#FFFFFF"><b>ไอ้เหี้ย เอ๊ย</b></font>
+
+8
+00:00:15,360 --> 00:00:16,300
+<font face="Mitr" color="#FFFFFF"><b>แล้ว Security Tank ไม่ได้</b></font>
+
+9
+00:00:16,300 --> 00:00:17,100
+<font face="Mitr" color="#FFFFFF"><b>Search เป็น Security Armored</b></font>
+
+10
+00:00:17,100 --> 00:00:18,400
+<font face="Mitr" color="#FFFFFF"><b>ตอนลงเรดนะ</b></font>
+
+11
+00:00:27,440 --> 00:00:28,500
+<font face="Mitr" color="#FFFFFF"><b>จะต้องพึ่งคุณเคน</b></font>
+
+12
+00:00:28,500 --> 00:00:29,550
+<font face="Mitr" color="#FFFFFF"><b>หนักเลยล่ะ</b></font>
+
+13
+00:00:29,660 --> 00:00:31,300
+<font face="Mitr" color="#FFFFFF"><b>อัด Key มาเยอะมาก</b></font>
+
+14
+00:00:31,300 --> 00:00:32,580
+<font face="Mitr" color="#FFFFFF"><b>อ่ะไอ้เหี้ย</b></font>
+
+15
+00:00:34,080 --> 00:00:35,120
+<font face="Mitr" color="#FFFFFF"><b>ถ้าแพ้อีกก็แดก</b></font>
+
+16
+00:00:35,120 --> 00:00:36,180
+<font face="Mitr" color="#FFFFFF"><b>วิตามินซีเหมือนเดิม</b></font>
+
+17
+00:00:38,280 --> 00:00:39,440
+<font face="Mitr" color="#FFFFFF"><b>บอกเลยว่าเล่นจนชิน</b></font>
+
+18
+00:00:39,440 --> 00:00:40,660
+<font face="Mitr" color="#FFFFFF"><b>อะไอ้เหี้ย บอกเลย</b></font>
+
+19
+00:00:41,800 --> 00:00:43,200
+<font face="Mitr" color="#FFFFFF"><b>อยู่เปล่า</b></font>
+
+20
+00:00:43,200 --> 00:00:44,220
+<font face="Mitr" color="#FFFFFF"><b>เจออีกแล้ว</b></font>
+
+21
+00:00:44,540 --> 00:00:45,420
+<font face="Mitr" color="#FFFFFF"><b>เอาไปเลย</b></font>
+
+22
+00:00:45,420 --> 00:00:46,280
+<font face="Mitr" color="#FFFFFF"><b>ไอ้เหี้ย</b></font>
+
+23
+00:00:46,280 --> 00:00:47,160
+<font face="Mitr" color="#FFFFFF"><b>ขอ</b></font>
+
+24
+00:00:47,160 --> 00:00:48,280
+<font face="Mitr" color="#FFFFFF"><b>อ้าว ชิบหายเรื่อง</b></font>
+
+25
+00:00:48,560 --> 00:00:49,550
+<font face="Mitr" color="#FFFFFF"><b>เอาไปแล้ว</b></font>
+
+26
+00:00:49,550 --> 00:00:50,350
+<font face="Mitr" color="#FFFFFF"><b>ลาฟี่กู</b></font>
+
+27
+00:00:50,350 --> 00:00:51,780
+<font face="Mitr" color="#FFFFFF"><b>โดนจับไป ไอ้เหี้ย</b></font>
+
+28
+00:00:53,080 --> 00:00:54,000
+<font face="Mitr" color="#FFFFFF"><b>ไอ้เหี้ย</b></font>
+
+29
+00:00:54,000 --> 00:00:55,500
+<font face="Mitr" color="#FFFFFF"><b>โอ๊ย</b></font>
+
+30
+00:01:02,820 --> 00:01:03,800
+<font face="Mitr" color="#FFFFFF"><b>ทีวิตน้ำปันอยู่ยาก</b></font>
+
+31
+00:01:03,800 --> 00:01:04,500
+<font face="Mitr" color="#FFFFFF"><b>ไอ้เหี้ย โดนจับ</b></font>
+
+32
+00:01:04,500 --> 00:01:05,480
+<font face="Mitr" color="#FFFFFF"><b>เป็นบ้าเล่นเลยคนดู</b></font>
+
+33
+00:01:05,920 --> 00:01:07,100
+<font face="Mitr" color="#FFFFFF"><b>โดนจับเป็นเรื่องธรรมดา</b></font>
+
+34
+00:01:07,100 --> 00:01:08,100
+<font face="Mitr" color="#FFFFFF"><b>คุณเค</b></font>
+
+35
+00:01:08,340 --> 00:01:09,100
+<font face="Mitr" color="#FFFFFF"><b>ไอ้มอนตัวนี้</b></font>
+
+36
+00:01:09,100 --> 00:01:09,900
+<font face="Mitr" color="#FFFFFF"><b>ไอ้บอสตัวนี้มันจับได้</b></font>
+
+37
+00:01:12,120 --> 00:01:13,880
+<font face="Mitr" color="#FFFFFF"><b>นี่คือหนึ่งในเหตุผลที่</b></font>
+
+38
+00:01:13,880 --> 00:01:15,100
+<font face="Mitr" color="#FFFFFF"><b>ผมต้องใช้ EX สองที</b></font>
+
+39
+00:01:15,100 --> 00:01:16,600
+<font face="Mitr" color="#FFFFFF"><b>ไงแหละ เพราะมัน i-frame</b></font>

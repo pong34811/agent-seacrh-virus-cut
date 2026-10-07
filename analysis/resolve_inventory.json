@@ -1,0 +1,94 @@
+{
+  "project": "KT404_2026-09-29",
+  "settings": {
+    "timelineFrameRate": 24,
+    "timelineResolutionWidth": "1920",
+    "timelineResolutionHeight": "1080"
+  },
+  "clips": [
+    {
+      "id": "ea1a7da3-ca57-48fd-81d7-ed41546fdfaf",
+      "name": "【🔴 LIVE】Soul Walker - 004 ｜ 19⧸09⧸2026 ｜  @NJaACh ​@LaffeyNilvalen.mp4",
+      "path": "G:\\My Drive\\Projects\\Katy404\\2026-09-29\\【🔴 LIVE】Soul Walker - 004 ｜ 19⧸09⧸2026 ｜  @NJaACh ​@LaffeyNilvalen.mp4",
+      "fps": 30,
+      "frames": "324030",
+      "duration": "03:00:01:00",
+      "codec": "H.264 High L4.0",
+      "audio": "opus",
+      "resolution": "1920x1080",
+      "status": "Online"
+    },
+    {
+      "id": "32c4d4a0-5e15-476d-8b68-2694726b707f",
+      "name": "【🔴 LIVE】Monster Hunter： World - 001  ｜ 15⧸09⧸2569 ｜ #katy404live.mp4",
+      "path": "G:\\My Drive\\Projects\\Katy404\\2026-09-29\\【🔴 LIVE】Monster Hunter： World - 001  ｜ 15⧸09⧸2569 ｜ #katy404live.mp4",
+      "fps": 60,
+      "frames": "529260",
+      "duration": "02:27:01:00",
+      "codec": "AV1 Main L4.1",
+      "audio": "opus",
+      "resolution": "1920x1080",
+      "status": "Online"
+    },
+    {
+      "id": "b7bf1e93-e22b-4912-bd8c-1a01679d082f",
+      "name": "【🔴 LIVE】Soul Walker - 003 ｜ 12⧸09⧸2026 ｜  @NJaACh ​@LaffeyNilvalen.mp4",
+      "path": "G:\\My Drive\\Projects\\Katy404\\2026-09-29\\【🔴 LIVE】Soul Walker - 003 ｜ 12⧸09⧸2026 ｜  @NJaACh ​@LaffeyNilvalen.mp4",
+      "fps": 60,
+      "frames": "565380",
+      "duration": "02:37:03:00",
+      "codec": "H.264 High L4.2",
+      "audio": "opus",
+      "resolution": "1920x1080",
+      "status": "Online"
+    },
+    {
+      "id": "17835c32-d0f1-46b4-878c-32c3b5dedae6",
+      "name": "【🔴 LIVE】Minecraft - 003  ｜ 21⧸09⧸2569 ｜ #katy404live.mp4",
+      "path": "G:\\My Drive\\Projects\\Katy404\\2026-09-29\\【🔴 LIVE】Minecraft - 003  ｜ 21⧸09⧸2569 ｜ #katy404live.mp4",
+      "fps": 60,
+      "frames": "438600",
+      "duration": "02:01:50:00",
+      "codec": "H.264 High L4.2",
+      "audio": "opus",
+      "resolution": "1920x1080",
+      "status": "Online"
+    },
+    {
+      "id": "5331d535-bc6a-4b6b-aeae-526ff286bd2d",
+      "name": "【🔴 LIVE】Minecraft - 002  ｜ 14⧸09⧸2569 ｜ #katy404live.mp4",
+      "path": "G:\\My Drive\\Projects\\Katy404\\2026-09-29\\【🔴 LIVE】Minecraft - 002  ｜ 14⧸09⧸2569 ｜ #katy404live.mp4",
+      "fps": 60,
+      "frames": "546121",
+      "duration": "02:31:42:01",
+      "codec": "H.264 High L4.2",
+      "audio": "opus",
+      "resolution": "1920x1080",
+      "status": "Online"
+    },
+    {
+      "id": "640f02a5-2744-4339-8b0a-6ffa23bb41d4",
+      "name": "【🔴 COLAB】Terraria Skyblock กับเพือน ｜ 13⧸09⧸2026 ｜ #katy404live ‪@LaffeyNilvalen @morkeang​.mp4",
+      "path": "G:\\My Drive\\Projects\\Katy404\\2026-09-29\\【🔴 COLAB】Terraria Skyblock กับเพือน ｜ 13⧸09⧸2026 ｜ #katy404live ‪@LaffeyNilvalen @morkeang​.mp4",
+      "fps": 60,
+      "frames": "511912",
+      "duration": "02:22:11:52",
+      "codec": "H.264 High L4.2",
+      "audio": "opus",
+      "resolution": "1920x1080",
+      "status": "Online"
+    },
+    {
+      "id": "e486fb90-b261-4d02-b09d-7eeeebd8d58c",
+      "name": "【🔴 LIVE】Soul Walker - 005 ｜ 26⧸09⧸2026 ｜   ​@LaffeyNilvalen.mp4",
+      "path": "G:\\My Drive\\Projects\\Katy404\\2026-09-29\\【🔴 LIVE】Soul Walker - 005 ｜ 26⧸09⧸2026 ｜   ​@LaffeyNilvalen.mp4",
+      "fps": 60,
+      "frames": "416400",
+      "duration": "01:55:40:00",
+      "codec": "H.264 High L4.2",
+      "audio": "opus",
+      "resolution": "1920x1080",
+      "status": "Online"
+    }
+  ]
+}

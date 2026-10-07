@@ -1,0 +1,21 @@
+{
+  "selects": [
+    {
+      "slug": "soul_003",
+      "source_clip_id": "b7bf1e93-e22b-4912-bd8c-1a01679d082f",
+      "in_seconds": 155,
+      "out_seconds": 243,
+      "title_th": "ชวนเพื่อนไม่ได้ เพราะเผลอแบล็กลิสต์กัน",
+      "category": "meme",
+      "priority": 1,
+      "hook": "ยืนอยู่ด้วยกันแต่กดเชิญเข้าทีมไม่ได้",
+      "payoff": "เปิด Community และพบว่าเพื่อนอยู่ใน Blacklist ก่อนยอมรับว่ากดผิด",
+      "reason": "ปัญหา–การลองแก้–เฉลยครบในช่วงเดียวและหน้าต่าง Blacklist ยืนยันเหตุการณ์",
+      "transcript_evidence": [{"start": 156.4, "end": 239.8, "text": "ลองเชิญ/แอดใหม่ ก่อนพูดว่าเผลอแบล็กลิสต์คุณจา (ASR เป็นคำประมาณ ต้องฟังทวนก่อนเผยแพร่)"}],
+      "visual_evidence": [{"seconds": 180, "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\root_review\\soul003_blacklist\\180.jpg", "description": "เปิดหน้าต่าง Community"}, {"seconds": 200, "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\root_review\\soul003_blacklist\\200.jpg", "description": "ลอง Find Friends"}, {"seconds": 220, "path": "C:\\Users\\warit\\Desktop\\agent-seacrh-virus-cut\\analysis\\root_review\\soul003_blacklist\\220.jpg", "description": "เปิดแท็บ Blacklist และมีรายชื่อ"}],
+      "confidence": "high_visual_medium_speech",
+      "beat_second": 220,
+      "notes": "ช่วงต้น ASR เป็นบล็อกยาว; rough cut ต้องฟังเช็กคำก่อนใส่ซับหรือเผยแพร่"
+    }
+  ]
+}

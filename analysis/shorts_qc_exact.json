@@ -1,0 +1,588 @@
+{
+  "project": "KT404_2026-09-29",
+  "timeline_count": 29,
+  "verified_count": 29,
+  "failures": [],
+  "timelines": [
+    {
+      "name": "K404_01_MC002_ขุดมั่วเจอเหล็กกองใหญ่",
+      "title": "ขุดมั่วเจอเหล็กกองใหญ่",
+      "source_slug": "minecraft_002",
+      "in_seconds": 788,
+      "out_seconds": 898,
+      "duration_seconds": 110,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_02_MC002_คุยกับเพื่อนตั้งนาน ลืมเอาเสียงเข้าไลฟ์",
+      "title": "คุยกับเพื่อนตั้งนาน ลืมเอาเสียงเข้าไลฟ์",
+      "source_slug": "minecraft_002",
+      "in_seconds": 2062,
+      "out_seconds": 2154,
+      "duration_seconds": 92,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_03_MC002_ลืมเสบียง จนต้องกินเนื้อซอมบี",
+      "title": "ลืมเสบียง จนต้องกินเนื้อซอมบี",
+      "source_slug": "minecraft_002",
+      "in_seconds": 2296,
+      "out_seconds": 2410,
+      "duration_seconds": 114,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_04_MC002_Creeper ระเบิดข้างกรง แต่กรงยังรอด",
+      "title": "Creeper ระเบิดข้างกรง แต่กรงยังรอด",
+      "source_slug": "minecraft_002",
+      "in_seconds": 2442,
+      "out_seconds": 2522,
+      "duration_seconds": 80,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_05_MC002_เห็นแร่จนสงสัยว่าตัวเองมี X-ray",
+      "title": "เห็นแร่จนสงสัยว่าตัวเองมี X-ray",
+      "source_slug": "minecraft_002",
+      "in_seconds": 3780,
+      "out_seconds": 3824,
+      "duration_seconds": 44,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_06_MC002_ออกหา NPC วนกลับมาบ้านตัวเอง",
+      "title": "ออกหา NPC วนกลับมาบ้านตัวเอง",
+      "source_slug": "minecraft_002",
+      "in_seconds": 5265,
+      "out_seconds": 5345,
+      "duration_seconds": 80,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_07_MC002_ต้องพายเรือ หรือหิ้วเรือขึ้นเขา",
+      "title": "ต้องพายเรือ หรือหิ้วเรือขึ้นเขา",
+      "source_slug": "minecraft_002",
+      "in_seconds": 5607,
+      "out_seconds": 5730,
+      "duration_seconds": 123,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_08_MC002_พาชาวบ้านกลับฐาน รอดมาได้ตัวเดียว",
+      "title": "พาชาวบ้านกลับฐาน รอดมาได้ตัวเดียว",
+      "source_slug": "minecraft_002",
+      "in_seconds": 6203,
+      "out_seconds": 6341,
+      "duration_seconds": 138,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_09_MC002_ชวนชาวบ้านเพิ่มประชากร ขนมปังหายครึ่งกอง",
+      "title": "ชวนชาวบ้านเพิ่มประชากร ขนมปังหายครึ่งกอง",
+      "source_slug": "minecraft_002",
+      "in_seconds": 7935,
+      "out_seconds": 8057,
+      "duration_seconds": 122,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_10_MC002_ทำฟาร์มในหิมะ น้ำแข็งจนต้องทำหลังคา",
+      "title": "ทำฟาร์มในหิมะ น้ำแข็งจนต้องทำหลังคา",
+      "source_slug": "minecraft_002",
+      "in_seconds": 8592,
+      "out_seconds": 8674,
+      "duration_seconds": 82,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_11_SW003_ชวนเพื่อนไม่ได้ เพราะเผลอแบล็กลิสต์กัน",
+      "title": "ชวนเพื่อนไม่ได้ เพราะเผลอแบล็กลิสต์กัน",
+      "source_slug": "soul_003",
+      "in_seconds": 155,
+      "out_seconds": 243,
+      "duration_seconds": 88,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_12_SW003_DreadfulEcho",
+      "title": "Dreadful Echo: ลุยสนามพลังจนจบเควสต์",
+      "source_slug": "soul_003",
+      "in_seconds": 7859,
+      "out_seconds": 7941,
+      "duration_seconds": 82,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_13_TER_OldOnesArmy",
+      "title": "Old One's Army เวฟสุดท้ายชนะแล้ว",
+      "source_slug": "terraria",
+      "in_seconds": 1870,
+      "out_seconds": 1930,
+      "duration_seconds": 60,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_14_TER_MoonLordFail",
+      "title": "Moon Lord ยิงเลเซอร์จนทีมแตก",
+      "source_slug": "terraria",
+      "in_seconds": 3490,
+      "out_seconds": 3580,
+      "duration_seconds": 90,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_15_TER_MoonLordFirstWin",
+      "title": "ล้ม Moon Lord ครั้งแรก เครดิตขึ้นกลางไลฟ์",
+      "source_slug": "terraria",
+      "in_seconds": 3740,
+      "out_seconds": 3835,
+      "duration_seconds": 95,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_16_TER_MoonLordWin2",
+      "title": "Moon Lord รอบสอง ยิงสวนจนล้ม",
+      "source_slug": "terraria",
+      "in_seconds": 4980,
+      "out_seconds": 5090,
+      "duration_seconds": 110,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_17_TER_PumpkinMoon",
+      "title": "Pumpkin Moon โดนรุมกลางเวฟ",
+      "source_slug": "terraria",
+      "in_seconds": 5460,
+      "out_seconds": 5550,
+      "duration_seconds": 90,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_18_TER_NPCDuringBoss",
+      "title": "Moon Lord บุก แต่หน้าต่างคุย NPC ยังเปิด",
+      "source_slug": "terraria",
+      "in_seconds": 7710,
+      "out_seconds": 7810,
+      "duration_seconds": 100,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_19_MHW_MetalBagpipeRoulette",
+      "title": "ขออะไรก็ได้ที่ไม่ใช่ซัพพอร์ต วงล้อให้ Metal Bagpipe",
+      "source_slug": "monster_hunter",
+      "in_seconds": 1895,
+      "out_seconds": 2012,
+      "duration_seconds": 117,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_20_MHW_GreatJagras",
+      "title": "ทีมรุม Great Jagras ภารกิจแรกจบ",
+      "source_slug": "monster_hunter",
+      "in_seconds": 4275,
+      "out_seconds": 4360,
+      "duration_seconds": 85,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_21_MHW_KuluYaKu",
+      "title": "ตามตี Kulu-Ya-Ku จนจบภารกิจ",
+      "source_slug": "monster_hunter",
+      "in_seconds": 5540,
+      "out_seconds": 5655,
+      "duration_seconds": 115,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_22_MHW_PukeiPukei",
+      "title": "เพื่อนรุม Pukei-Pukei แล้วถามว่าผมทำแค่นี้เหรอ",
+      "source_slug": "monster_hunter",
+      "in_seconds": 5990,
+      "out_seconds": 6095,
+      "duration_seconds": 105,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_23_MHW_Barroth",
+      "title": "ไล่ล่า Barroth จนล้มกลางดิน",
+      "source_slug": "monster_hunter",
+      "in_seconds": 7245,
+      "out_seconds": 7385,
+      "duration_seconds": 140,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_24_MHW_Jyuratodus",
+      "title": "บอกไม่มีวันตาย ก่อนล้มในโคลนแล้วทีมชนะ",
+      "source_slug": "monster_hunter",
+      "in_seconds": 8230,
+      "out_seconds": 8390,
+      "duration_seconds": 160,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_25_SW004_DragonBoss",
+      "title": "ปะทะมังกรยักษ์ในสนามคริสตัล",
+      "source_slug": "soul_004",
+      "in_seconds": 9116,
+      "out_seconds": 9251,
+      "duration_seconds": 135,
+      "fps": 30,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_26_MC003_ColdEscape",
+      "title": "ขุดทางออกจากถ้ำจนหนาว เกมเตือนให้รีบอุ่นตัว",
+      "source_slug": "minecraft_003",
+      "in_seconds": 6055,
+      "out_seconds": 6153,
+      "duration_seconds": 98,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_27_SW005_GolemClear",
+      "title": "รุมบอสโกเลมจนล้ม รับแรงก์ C",
+      "source_slug": "soul_005",
+      "in_seconds": 800,
+      "out_seconds": 850,
+      "duration_seconds": 50,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_28_SW005_ShieldRoomCountdown",
+      "title": "ฝ่าหุ่นยนต์ใน Shield Room แข่งกับเวลาถอยหลัง",
+      "source_slug": "soul_005",
+      "in_seconds": 4725,
+      "out_seconds": 4885,
+      "duration_seconds": 160,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    },
+    {
+      "name": "K404_29_SW005_HellCityClear",
+      "title": "บุก Hell City กวาดศัตรูแล้วจบเป้าหมาย",
+      "source_slug": "soul_005",
+      "in_seconds": 6570,
+      "out_seconds": 6650,
+      "duration_seconds": 80,
+      "fps": 60,
+      "checks": {
+        "source_id": true,
+        "exact_source_in": true,
+        "exact_source_out": true,
+        "audio_video_same_range": true,
+        "audio_video_linked": true,
+        "duration_30_to_180": true,
+        "native_format": true,
+        "story_marker": true
+      },
+      "verified": true
+    }
+  ]
+}

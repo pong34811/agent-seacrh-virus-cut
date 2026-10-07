@@ -1,0 +1,50 @@
+[
+  {
+    "select_id": "soul005_01",
+    "slug": "soul_005",
+    "source_clip_id": "e486fb90-b261-4d02-b09d-7eeeebd8d58c",
+    "in_seconds": 800,
+    "out_seconds": 850,
+    "timeline_name": "K404_27_SW005_GolemClear",
+    "title_th": "รุมบอสโกเลมจนล้ม รับแรงก์ C",
+    "category": "gameplay",
+    "priority": "B",
+    "hook": "บอสโกเลมยังมีแถบพลังและทีมรุมใช้สกิล",
+    "payoff": "ศัตรูล้มและหน้าสรุปดันเจียนขึ้นแรงก์ C",
+    "beat_second": 842,
+    "reason": "ภาพการต่อสู้ เอฟเฟกต์หนัก และผลเคลียร์ภายในไม่ถึงหนึ่งนาที",
+    "confidence": "high_visual_pending_audio"
+  },
+  {
+    "select_id": "soul005_02",
+    "slug": "soul_005",
+    "source_clip_id": "e486fb90-b261-4d02-b09d-7eeeebd8d58c",
+    "in_seconds": 4725,
+    "out_seconds": 4885,
+    "timeline_name": "K404_28_SW005_ShieldRoomCountdown",
+    "title_th": "ฝ่าหุ่นยนต์ใน Shield Room แข่งกับเวลาถอยหลัง",
+    "category": "gameplay",
+    "priority": "A",
+    "hook": "เวลาในห้อง Shield Room เหลือน้อยขณะศัตรูยังเต็มห้อง",
+    "payoff": "ฝ่าศัตรูและเครื่องก่อกวน จนฉากเปลี่ยนเป็นบทสนทนาหน้าเครื่องควบคุม",
+    "beat_second": 4840,
+    "reason": "ตัวนับเวลาบนจอสร้างแรงกดดัน มีการต่อสู้หลายจังหวะและบทส่งท้ายชัด",
+    "confidence": "high_visual_pending_audio"
+  },
+  {
+    "select_id": "soul005_03",
+    "slug": "soul_005",
+    "source_clip_id": "e486fb90-b261-4d02-b09d-7eeeebd8d58c",
+    "in_seconds": 6570,
+    "out_seconds": 6650,
+    "timeline_name": "K404_29_SW005_HellCityClear",
+    "title_th": "บุก Hell City กวาดศัตรูแล้วจบเป้าหมาย",
+    "category": "gameplay",
+    "priority": "B",
+    "hook": "เข้าพื้นที่ Hell City และปะทะศัตรูเป็นกลุ่ม",
+    "payoff": "ตัวเลขความเสียหายขึ้นต่อเนื่อง ก่อนหน้าจอแสดงเป้าหมายสำเร็จ",
+    "beat_second": 6640,
+    "reason": "เป็นไฟต์ที่มีเปิดฉากและจุดจบที่มองเห็นได้ ภายในช่วงสั้น",
+    "confidence": "high_visual_pending_audio"
+  }
+]

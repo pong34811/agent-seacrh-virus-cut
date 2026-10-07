@@ -1,0 +1,23 @@
+{
+  "status": "visual_seeds_pending_transcript",
+  "sampling": "Read-only source review: 300-second orientation and 30-second combat sheets, key payoffs rechecked at 5-second intervals. These seeds are not final editorial selects.",
+  "terraria": [
+    {"in": 1780, "out": 1936, "beat": 1920, "title": "Old One's Army จบเวฟสุดท้าย", "evidence": "terraria/boundaries/01920.jpg", "event": "Victory text: The Old One's Army has been defeated, achievement Hero of Etheria; Betsy battle immediately before."},
+    {"in": 3490, "out": 3590, "beat": 3570, "title": "Moon Lord ไล่จนเลือดหมด", "evidence": "terraria/dense/03570.jpg", "event": "You were slain during Moon Lord encounter; still needs spoken setup/payoff validation."},
+    {"in": 3700, "out": 3840, "beat": 3820, "title": "Moon Lord ล้ม เครดิตขึ้นกลางไลฟ์", "evidence": "terraria/boundaries/03820.jpg", "event": "First on-character Champion of Terraria achievement and credits after Moon Lord defeated; portrait smiling."},
+    {"in": 4180, "out": 4280, "beat": 4260, "title": "ศึกเสาฟ้า กระสุนเต็มจอแล้วตาย", "evidence": "terraria/dense/04260.jpg", "event": "Action with lasers, foreground rolling credits, character death. Do not infer exact boss label without transcript/frame corroboration."},
+    {"in": 4970, "out": 5095, "beat": 5080, "title": "Moon Lord รอบสอง ยิงสวนเลเซอร์", "evidence": "terraria/boundaries/05080.jpg", "event": "Moon Lord core heavily attacked and boss defeated text appears5080; preceding teleport messages and death-map interruption."},
+    {"in": 5435, "out": 5550, "beat": 5535, "title": "Empress of Light เลเซอร์รุ้งแล้วดับ", "evidence": "terraria/boundaries/05535.jpg", "event": "Bright rainbow attack patterns visible5515–5530, death message5535."},
+    {"in": 6080, "out": 6260, "beat": 6150, "title": "Pumpkin Moon วุ่นทั้งบ้าน", "evidence": "terraria/dense/06150.jpg", "event": "Repeated deaths amidst large enemy waves and projectiles around housing complex; repeated death6240. Audio story required to justify length."},
+    {"in": 7200, "out": 7335, "beat": 7290, "title": "ศึกเวทกลางคืน กระสุนแน่นจอ", "evidence": "terraria/dense/07290.jpg", "event": "Boss battle on upper arena ending near7320; exact boss and compelling dialogue pending."},
+    {"in": 7710, "out": 7820, "beat": 7740, "title": "คุยกับ NPC ขณะ Moon Lord บุก", "evidence": "terraria/dense/07740.jpg", "event": "Dialogue bubble remains open in central base while Moon Lord directly overlaps character; boss ends by7800."}
+  ],
+  "monster_hunter": [
+    {"in": 1900, "out": 2010, "beat": 1970, "title": "วงล้อเลือกอาวุธ ได้ Metal Bagpipe", "evidence": "monster_hunter/boundaries/01970.jpg", "event": "Website roulette spinning1940–1965; result popup metal bagpipe1970–1980; selects Metal Bagpipe I1990–2005."},
+    {"in": 4270, "out": 4360, "beat": 4335, "title": "ช่วยกันล้ม Great Jagras", "evidence": "monster_hunter/boundaries/04335.jpg", "event": "Co-op Great Jagras final attacks4330 then return-to-base timer4335, corpse+carving. Quest complete4395 outside proposed concise cut."},
+    {"in": 5510, "out": 5660, "beat": 5640, "title": "ตามตี Kulu-Ya-Ku จบภารกิจ", "evidence": "monster_hunter/boundaries/05640.jpg", "event": "Objective label Hunt a Kulu-Ya-Ku, final spear attacks, Assigned expedition objective complete5640; two players visible."},
+    {"in": 5950, "out": 6115, "beat": 6080, "title": "ทีมรุม Pukei-Pukei ล้มในพริบตา", "evidence": "monster_hunter/boundaries/06080.jpg", "event": "4-player fight, Main objective complete6080, aftercare carving6090–6115; overall quest completion2m45.70s."},
+    {"in": 7245, "out": 7395, "beat": 7370, "title": "Barroth เจอทีมตีจนล้ม", "evidence": "monster_hunter/boundaries/07370.jpg", "event": "Barroth chase then large hit spark7340, close fight7350–7365, Main objective complete7370, corpse7375 onward."},
+    {"in": 8230, "out": 8395, "beat": 8370, "title": "ศึกโคลน Jyuratodus จบพร้อมกัน", "evidence": "monster_hunter/boundaries/08370.jpg", "event": "Jyuratodus fight in muddy water, character knocked down8360–8365 then Main objective complete8370; teammates nearby."}
+  ]
+}

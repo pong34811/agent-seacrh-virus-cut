@@ -1,0 +1,6 @@
+{
+  "coverage": "MHW visual orientation across full 8821 seconds; Thai ASR is in progress and later visual seeds will be verified before timeline creation.",
+  "selects": [
+    {"slug":"monster_hunter","source_clip_id":"32c4d4a0-5e15-476d-8b68-2694726b707f","in_seconds":1895,"out_seconds":2012,"title_th":"ขออะไรก็ได้ที่ไม่ใช่ซัพพอร์ต วงล้อให้ Metal Bagpipe","category":"meme","priority":1,"hook":"สตรีมเมอร์เล่นครั้งแรก ประกาศว่าจะเล่นอาวุธที่วงล้อสุ่มได้และขอไม่ใช่ซัพพอร์ต","payoff":"วงล้อออก metal bagpipe แล้วไปเลือกอาวุธนั้นจริงในเกม","beat_second":1970,"reason":"setup–การสุ่ม–ผลลัพธ์–การยอมรับผลครบ พร้อมภาพ popup เป็นหลักฐาน","transcript_evidence":[{"start":1951,"end":1969,"text":"ผมจะกดแล้วนะ...ขออะไรก็ได้ที่ไม่ใช่...ซัพพอร์ต...เมเทิลแบ็กไพป์ [ถอดเสียงหยาบ]"}],"visual_evidence":[{"seconds":1970,"path":"analysis/terraria_review/monster_hunter/boundaries/01970.jpg","description":"ผลวงล้อ metal bagpipe"},{"seconds":1990,"path":"analysis/terraria_review/monster_hunter/boundaries/01990.jpg","description":"กลับเกมไปเลือก Metal Bagpipe"}],"confidence":"high"}
+  ]
+}
