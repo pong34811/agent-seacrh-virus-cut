@@ -30,3 +30,4 @@ LANGUAGE = _job["LANGUAGE"]
 VIDEO_EXTS = {".mp4", ".mkv", ".mov", ".webm", ".ts", ".m4v"}
 GAME_OVERRIDES = _job.get("GAME_OVERRIDES", {})        # file-name substring -> game name
 RESOLVE_PROJECTS = _job.get("RESOLVE_PROJECTS", {})    # Resolve project -> [source_id, ...]
+TIMELINE_NAME_FORMAT = _job.get("TIMELINE_NAME_FORMAT")

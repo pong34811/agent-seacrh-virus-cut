@@ -38,6 +38,10 @@ Setup and checks (run through the `terminal` tool):
 - Wiki lint: `python tools/lint_vault.py ../llm_wiki` (a copy of the `llm-wiki` skill script).
 - Config: ffmpeg/ffprobe come from `HIGHLIGHT_FFMPEG` / `HIGHLIGHT_FFPROBE`, else the bundled Hermes copy, else `PATH`.
 
+## Tool mapping (Hermes docs -> Antigravity)
+
+Plans and skills here were written with Hermes tool names. Use: `delegate_task` -> `invoke_subagent` (`TypeName: "self"`, one per video, max 8 per call); `terminal` background + `notify` -> `run_command` (the system notifies on completion; do not poll); a skill named in a doc -> read `.agents/skills/<name>/SKILL.md` directly. Never report a skill as missing before checking that folder.
+
 ## Working rules
 
 - Footage folders are read-only. Re-read footage, `ffprobe` facts, Resolve project state and clip ids at the start of every job; never reuse them from an old job or from the wiki.

@@ -1,5 +1,6 @@
 """Candidates -> Resolve clip_infos / timeline names. Resolve calls themselves go through the Resolve MCP."""
 import glob, json, pathlib, re, sys
+from string import Formatter
 import config
 
 def to_clip_infos(c: dict, clip_id: str, fps: float) -> list[dict]:
@@ -12,16 +13,45 @@ def to_clip_infos(c: dict, clip_id: str, fps: float) -> list[dict]:
 _BAD = r'[\\/:*?"<>|]'
 
 def timeline_name(c: dict, game: str, limit: int = 60) -> str:
-    """`{ชื่อคลิป}-{ชื่อเกม}-vdo`, at most `limit` chars; the title is shortened, never the game/suffix."""
-    game = re.sub(_BAD, " ", game or "").strip()
-    if not game:
+    """Format a title using the current job's timeline template; defaults to the legacy format."""
+    template = config.TIMELINE_NAME_FORMAT or "{title}-{game}-vdo"
+    try:
+        fields = [field for _, field, _, _ in Formatter().parse(template) if field]
+    except ValueError as exc:
+        raise ValueError(f"invalid timeline name format: {exc}") from exc
+
+    title_fields = [field for field in fields if field in {"title", "ชื่อคลิป"}]
+    if len(title_fields) != 1:
+        raise ValueError("timeline name format must contain exactly one title placeholder")
+    allowed_fields = {"title", "ชื่อคลิป", "game", "ชื่อเกม"}
+    unknown_fields = set(fields) - allowed_fields
+    if unknown_fields:
+        raise ValueError(f"unsupported timeline name placeholder: {sorted(unknown_fields)[0]}")
+
+    title_field = title_fields[0]
+    title = re.sub(_BAD, " ", c["title_th"]).strip()
+    safe_game = re.sub(_BAD, " ", game or "").strip()
+    game_fields = {"game", "ชื่อเกม"}
+    if any(field in game_fields for field in fields) and not safe_game:
         raise ValueError("game name is required for the timeline name")
-    suffix = f"-{game}-vdo"
-    room = limit - len(suffix)
-    if room < 1:
-        raise ValueError(f"game name too long for a {limit}-char timeline name: {game!r}")
-    title = re.sub(_BAD, " ", c["title_th"]).strip()[:room].rstrip()
-    return title + suffix
+
+    values = {"title": title, "ชื่อคลิป": title, "game": safe_game, "ชื่อเกม": safe_game}
+
+    def render_name() -> str:
+        try:
+            formatted = template.format(**values)
+        except (IndexError, KeyError, ValueError) as exc:
+            raise ValueError(f"invalid timeline name format: {exc}") from exc
+        return re.sub(_BAD, " ", formatted).strip()
+
+    name = render_name()
+    if len(name) > limit:
+        excess = len(name) - limit
+        values[title_field] = values[title_field][:max(0, len(values[title_field]) - excess)].rstrip()
+        name = render_name()
+    if len(name) > limit:
+        raise ValueError(f"non-title text exceeds the {limit}-character timeline-name limit")
+    return name
 
 def game_from_filename(filename: str, overrides: dict | None = None) -> str:
     """Game name from a footage file name. `overrides` maps a file-name substring to a game name and wins."""

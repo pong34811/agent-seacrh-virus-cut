@@ -17,18 +17,33 @@ def test_to_clip_infos_uses_source_fps_30():
     out = b.to_clip_infos({"start_s": 10, "end_s": 70}, "X", fps=30)[0]
     assert out["start_frame"] == 300 and out["end_frame"] == 2100
 
-def test_timeline_name_format_title_game_vdo():
+def test_timeline_name_format_title_game_vdo(monkeypatch):
     c = {"id": "v01-03", "category": "meme", "title_th": "ชื่อคลิป"}
+    monkeypatch.setattr(b.config, "TIMELINE_NAME_FORMAT", "{title}-{game}-vdo", raising=False)
     assert b.timeline_name(c, "Backrooms") == "ชื่อคลิป-Backrooms-vdo"
 
-def test_timeline_name_sanitized_and_max_60_keeps_suffix():
+def test_timeline_name_respects_job_format(monkeypatch):
+    c = {"id": "v01-03", "category": "meme", "title_th": "ชื่อคลิป"}
+    monkeypatch.setattr(b.config, "TIMELINE_NAME_FORMAT", "{ชื่อคลิป}-vdo", raising=False)
+    assert b.timeline_name(c, "") == "ชื่อคลิป-vdo"
+
+def test_timeline_name_sanitizes_template_literals(monkeypatch):
+    c = {"title_th": "ชื่อคลิป"}
+    monkeypatch.setattr(b.config, "TIMELINE_NAME_FORMAT", "{title}|{game}/vdo", raising=False)
+    name = b.timeline_name(c, "Backrooms")
+    assert name == "ชื่อคลิป Backrooms vdo"
+    assert not any(ch in name for ch in '\\/:*?"<>|')
+
+def test_timeline_name_sanitized_and_max_60_keeps_suffix(monkeypatch):
+    monkeypatch.setattr(b.config, "TIMELINE_NAME_FORMAT", "{title}-{game}-vdo", raising=False)
     c = {"id": "v01-03", "category": "meme", "title_th": "จดชื่อ/ไว้ใน:เดธโน้ต" + "ก" * 80}
     n = b.timeline_name(c, "League of Legends")
     assert len(n) <= 60 and n.endswith("-League of Legends-vdo") and not any(ch in n for ch in '\\/:*?"<>|')
     assert "v01-03" not in n and "meme" not in n
 
-def test_timeline_name_requires_game():
+def test_timeline_name_requires_game(monkeypatch):
     import pytest
+    monkeypatch.setattr(b.config, "TIMELINE_NAME_FORMAT", "{title}-{game}-vdo", raising=False)
     with pytest.raises(ValueError):
         b.timeline_name({"title_th": "x"}, "")
 
